@@ -21,7 +21,7 @@
 -
 
 ## Tools & Calculators
--
+- [FanGraphs Auction Calculator](https://www.fangraphs.com/fantasy-tools/auction-calculator) — Customizable tool for generating player auction values based on league settings
 
 ## Other Resources
 -
