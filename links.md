@@ -29,6 +29,7 @@
 - [2023 Draft Results](https://baseball.fantasysports.yahoo.com/2023/b1/22876/draftresults?drafttab=team&draft_results_period=current) — Inside Baseball 2023 season draft results (Yahoo)
 - [2022 Draft Results](https://baseball.fantasysports.yahoo.com/2022/b1/51661/draftresults?drafttab=team&draft_results_period=current) — Inside Baseball 2022 season draft results (Yahoo)
 - [2021 Draft Results](https://baseball.fantasysports.yahoo.com/2021/b1/51392/draftresults?drafttab=team&draft_results_period=current) — Inside Baseball 2021 season draft results (Yahoo)
+- [2020 Draft Results](https://baseball.fantasysports.yahoo.com/2020/b1/70271/draftresults?drafttab=team&draft_results_period=current) — Inside Baseball 2020 season draft results (Yahoo)
 
 ## Other Resources
 -
