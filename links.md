@@ -24,7 +24,7 @@
 - [FanGraphs Auction Calculator](https://www.fangraphs.com/fantasy-tools/auction-calculator) — Customizable tool for generating player auction values based on league settings
 
 ## Past Draft Results
-- [2025 Draft Results](https://baseball.fantasysports.yahoo.com/2025/b1/1110/draftresults?draft_results_period=current) — Inside Baseball 2025 season draft results (Yahoo)
+- [2025 Draft Results](https://baseball.fantasysports.yahoo.com/2025/b1/1110/draftresults?drafttab=team&draft_results_period=current) — Inside Baseball 2025 season draft results (Yahoo)
 - [2024 Draft Results](https://baseball.fantasysports.yahoo.com/2024/b1/6774/draftresults?drafttab=team&draft_results_period=current) — Inside Baseball 2024 season draft results (Yahoo)
 - [2023 Draft Results](https://baseball.fantasysports.yahoo.com/2023/b1/22876/draftresults?drafttab=team&draft_results_period=current) — Inside Baseball 2023 season draft results (Yahoo)
 - [2022 Draft Results](https://baseball.fantasysports.yahoo.com/2022/b1/51661/draftresults?drafttab=team&draft_results_period=current) — Inside Baseball 2022 season draft results (Yahoo)
