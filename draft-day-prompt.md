@@ -19,7 +19,7 @@
 ### Format
 - 12-team dynasty keeper league (Yahoo)
 - Head-to-Head categories
-- Snake draft, 23 rounds, 1:15 per pick
+- Standard (non-snake) draft, 23 rounds, 1:15 per pick
 
 ### Scoring Categories (7x7)
 **Offense:** R, HR, RBI, SB, BB, K (negative), AVG
