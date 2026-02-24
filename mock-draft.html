@@ -840,7 +840,14 @@ function aiPickPlayer(teamIdx) {
 function makePick(playerId) {
   const { round, teamIdx } = getPickOrder(state.currentPick);
   const player = getPlayerById(playerId);
-  if (!player || state.drafted.has(playerId)) return;
+  if (!player) return;
+  // If already drafted, skip and retry the AI pick
+  if (state.drafted.has(playerId)) {
+    if (teamIdx !== state.userTeamIdx) {
+      onAiTurn();
+    }
+    return;
+  }
 
   state.drafted.add(playerId);
   state.teamRosters[teamIdx].push(playerId);
@@ -892,25 +899,36 @@ function onUserTurn() {
   scrollToCurrentPick();
 }
 
-function onAiTurn() {
-  clearTimer();
+function runAiPick() {
+  if (!state.draftActive || state.currentPick >= state.totalPicks) { endDraft(); return; }
   const { teamIdx } = getPickOrder(state.currentPick);
+  if (teamIdx === state.userTeamIdx) { onUserTurn(); return; }
+  if (state.paused) { state.aiWaiting = true; return; }
+
   const banner = document.getElementById("otc-banner");
   banner.innerHTML = `<div class="ai-picking-banner"><span class="team-name">${TEAM_NAMES[teamIdx]}</span> is picking...</div>`;
   document.getElementById("auto-pick-btn").style.display = "none";
   document.getElementById("pause-btn").style.display = "none";
 
   state.aiTimeout = setTimeout(() => {
-    if (state.paused) return;
-    const player = aiPickPlayer(teamIdx);
-    if (player) {
-      showNotification(`${TEAM_NAMES[teamIdx]} picks ${player.name} (${player.pos.join("/")})`);
-      makePick(player.id);
-    } else {
-      // No players available — end the draft
+    try {
+      const player = aiPickPlayer(teamIdx);
+      if (player) {
+        showNotification(`${TEAM_NAMES[teamIdx]} picks ${player.name} (${player.pos.join("/")})`);
+        makePick(player.id);
+      } else {
+        endDraft();
+      }
+    } catch (e) {
+      console.error("AI pick error:", e);
       endDraft();
     }
   }, state.aiSpeed);
+}
+
+function onAiTurn() {
+  clearTimer();
+  runAiPick();
 }
 
 function userAutoPick() {
