@@ -21,6 +21,20 @@
 - Head-to-Head categories
 - Standard (non-snake) draft, 23 rounds, 1:15 per pick
 
+### League Teams
+1. I Would Die 4 YU *(my team)*
+2. #BlackCommissioners
+3. Cuck Showalters
+4. Curtis Granderslams
+5. D.C. Funbaggers
+6. Late Round Fliers
+7. LowBallers
+8. Machine Needs Sugar
+9. Never Break The Chaim
+10. The Phavorites
+11. WaRshington Natinals
+12. Ya Gotta Believe
+
 ### Scoring Categories (7x7)
 **Offense:** R, HR, RBI, SB, BB, K (negative), AVG
 **Pitching:** W, SV, BB (negative), K, HLD, ERA, BSV (negative)
