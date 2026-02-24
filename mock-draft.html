@@ -520,7 +520,14 @@ const PLAYERS = [
   {id:176,name:"Tyler Stephenson",pos:["C"],team:"CIN",rank:176,adp:278,value:1,type:"H"},
   {id:177,name:"Colson Montgomery",pos:["3B","SS"],team:"CHW",rank:177,adp:231,value:3,type:"H"},
   {id:178,name:"Marcelo Mayer",pos:["SS"],team:"BOS",rank:178,adp:350,value:1,type:"H"},
-  {id:179,name:"Colton Cowser2",pos:["OF"],team:"BAL",rank:900,adp:900,value:0,type:"SKIP"},
+  {id:179,name:"Max Muncy",pos:["3B"],team:"LAD",rank:183,adp:257,value:-4,type:"H"},
+  {id:180,name:"Anthony Volpe",pos:["SS"],team:"NYY",rank:189,adp:400,value:-5,type:"H"},
+  {id:181,name:"Mark Vientos",pos:["3B"],team:"NYM",rank:194,adp:369,value:-4,type:"H"},
+  {id:182,name:"Tommy Edman",pos:["2B","3B","OF"],team:"LAD",rank:190,adp:406,value:1,type:"H"},
+  {id:183,name:"Bo Naylor",pos:["C"],team:"CLE",rank:191,adp:400,value:2,type:"H"},
+  {id:184,name:"Matt Wallner",pos:["OF"],team:"MIN",rank:197,adp:446,value:-1,type:"H"},
+  {id:185,name:"Cedric Mullins",pos:["OF"],team:"TBR",rank:184,adp:375,value:-3,type:"H"},
+  {id:186,name:"Victor Scott II2",pos:["OF"],team:"STL",rank:900,adp:900,value:0,type:"SKIP"},
   // STARTING PITCHERS
   {id:201,name:"Tarik Skubal",pos:["SP"],team:"DET",rank:1,adp:6,value:44,type:"SP"},
   {id:202,name:"Paul Skenes",pos:["SP"],team:"PIT",rank:2,adp:10,value:34,type:"SP"},
@@ -899,6 +906,9 @@ function onAiTurn() {
     if (player) {
       showNotification(`${TEAM_NAMES[teamIdx]} picks ${player.name} (${player.pos.join("/")})`);
       makePick(player.id);
+    } else {
+      // No players available — end the draft
+      endDraft();
     }
   }, state.aiSpeed);
 }
