@@ -751,18 +751,40 @@ function getTeamNeeds(teamIdx) {
 // ============================================================
 // AI DRAFTING LOGIC
 // ============================================================
+function playerFillsNeed(player, needs) {
+  return player.pos.some(pos => needs[pos] && needs[pos] > 0);
+}
+
+function countUnfilledRequired(needs) {
+  return Object.values(needs).reduce((sum, n) => sum + n, 0);
+}
+
 function aiPickPlayer(teamIdx) {
   const available = availablePlayers();
   const needs = getTeamNeeds(teamIdx);
   const pickNum = state.currentPick + 1;
   const rosterSize = state.teamRosters[teamIdx].length;
   const remainingSlots = state.numRounds - rosterSize;
+  const unfilledRequired = countUnfilledRequired(needs);
+
+  // Hard lock: if remaining picks <= unfilled required slots, ONLY pick players that fill a need
+  const mustFillNeed = remainingSlots <= unfilledRequired;
+  let candidates = available;
+  if (mustFillNeed) {
+    const needCandidates = available.filter(p => playerFillsNeed(p, needs));
+    if (needCandidates.length > 0) candidates = needCandidates;
+  }
+
+  // How far through the draft are we (0 to 1)
+  const draftProgress = rosterSize / state.numRounds;
+  // Need urgency scales up as draft progresses and slots remain open
+  const urgencyMultiplier = 1 + (draftProgress * 3) + (unfilledRequired > remainingSlots * 0.6 ? 2 : 0);
 
   let bestScore = -Infinity;
   let bestPlayer = null;
 
-  available.forEach(p => {
-    // Base score: how much value over ADP (players with ADP close to current overall pick are ideal)
+  candidates.forEach(p => {
+    // Base score: how much value over ADP
     const adpDiff = p.adp - pickNum;
     let score = 100 - Math.abs(adpDiff) * 0.5;
 
@@ -772,17 +794,16 @@ function aiPickPlayer(teamIdx) {
     // Penalty for reaching (picking well before ADP)
     if (adpDiff > 50) score -= adpDiff * 0.15;
 
-    // Positional need multiplier
+    // Positional need bonus — scales with urgency
     const playerPositions = p.pos;
     let needBonus = 0;
     playerPositions.forEach(pos => {
       if (needs[pos] && needs[pos] > 0) {
-        needBonus = Math.max(needBonus, 15 + (needs[pos] > 1 ? 5 : 0));
+        // Higher bonus for positions with more open slots (e.g. SP needs 5, RP needs 4)
+        needBonus = Math.max(needBonus, 15 + needs[pos] * 5);
       }
     });
-
-    // Extra urgency for positions with few remaining picks
-    if (remainingSlots <= 5 && needBonus > 0) needBonus += 10;
+    needBonus *= urgencyMultiplier;
 
     score += needBonus;
 
@@ -792,8 +813,10 @@ function aiPickPlayer(teamIdx) {
     // Random variance ±5%
     score *= (0.95 + Math.random() * 0.1);
 
-    // Penalize if player type fills no need and roster is getting full
-    if (needBonus === 0 && rosterSize >= 15) score -= 10;
+    // Penalize players that fill no need when roster is getting full
+    if (needBonus === 0 && rosterSize >= 12) score -= 15 * draftProgress;
+    // Stronger penalty late: don't waste picks on positions already filled
+    if (needBonus === 0 && rosterSize >= 18) score -= 40;
 
     if (score > bestScore) {
       bestScore = score;
