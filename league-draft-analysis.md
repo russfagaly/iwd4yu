@@ -1,6 +1,6 @@
 # Inside Baseball Keeper League — Draft Analysis (2020–2025)
 
-> **Purpose:** Data-driven scouting report and strategy guide for the 2026 draft, based on 5 years of draft history and season results.
+> **Purpose:** Data-driven scouting report and strategy guide for the 2026 draft, based on 6 years of draft history and season results.
 
 ---
 
@@ -39,25 +39,27 @@
 
 ## League-Wide Draft Trends
 
-### Hitter vs. Pitcher Split by Round (5-year aggregate)
+### Hitter vs. Pitcher Split by Round (6-year aggregate)
 
 | Round Range | Hitters | SP | RP | Notes |
 |-------------|---------|----|----|-------|
-| **1–3** | 58% | 34% | 8% | Pitching is heavily valued early — 1 in 3 picks is a pitcher |
-| **4–5** | 64% | 20% | 16% | RP peaks here — closers go in Rounds 4–5 |
-| **6–7** | 71% | 19% | 10% | Transition zone — pitching still available |
-| **8–11** | 77% | 13% | 9% | Hitter-dominated, but SP2/SP3 types still drafted |
-| **12–17** | 84% | 9% | 5% | Deep hitter territory — pitching largely done |
-| **18–23** | 87% | 10% | 2% | Lottery tickets and bench bats |
+| **1–3** | 63% | 30% | 7% | Pitching is heavily valued early — nearly 1 in 3 picks is a pitcher |
+| **4–5** | 61% | 19% | 20% | RP peaks here — closers and setup men go in Rounds 4–5 |
+| **6–7** | 62% | 24% | 13% | Transition zone — SP2/SP3 types still going |
+| **8–11** | 67% | 18% | 14% | Hitter-dominated, but pitching still drafted at a steady rate |
+| **12–17** | 70% | 16% | 13% | Mid-round depth — pitching still available later than expected |
+| **18–23** | 75% | 19% | 7% | Keeper stashes and lottery tickets |
 
 ### Key Findings
 
-**This league drafts pitching EARLY.** In Round 1, 30% of picks are pitchers (compared to ~15% in typical leagues). This is driven by:
+**This league drafts pitching EARLY.** In Round 1, 25% of picks are starting pitchers (compared to ~15% in typical leagues). This is driven by:
 - 5 SP slots and 4 RP slots demanding a large pitching roster
 - 7x7 format with HLD and BSV making relievers more valuable
 - Negative BB and K categories rewarding elite arms
 
-**Relievers peak in Rounds 2–5.** The league's unique HLD/BSV categories make elite closers and setup men Round 2–5 picks. After Round 5, RP value drops sharply — most teams have their RP1 by then.
+**Relievers peak in Rounds 4–5.** The league's unique HLD/BSV categories make elite closers and setup men Round 4–5 picks (20% RP rate). After Round 7, RP value spreads out — most teams have their RP1 by then.
+
+**Pitching stays relevant deep into the draft.** Unlike typical leagues where pitching dries up after Round 12, this league drafts SPs at 16–19% rates all the way through Round 23. The 5 SP requirement and keeper stashing behavior keep arms in play throughout.
 
 **Catchers go late or not at all in the draft.** The C position is rarely drafted before Round 10, despite being a required slot. Teams fill it with late-round picks or waiver wire adds.
 
@@ -66,31 +68,32 @@
 ## Round-by-Round Breakdown
 
 ### Rounds 1–3: Foundation Rounds
-- **70% hitters, 27% SP, 3% RP** in Round 1
-- **52% hitters, 34% SP, 13% RP** in Rounds 2–3
-- This is where ace SPs and elite closers go
-- Common Round 1 pitcher picks: Scherzer, Kershaw, Glasnow, Corbin Burnes, Chris Sale, Zack Wheeler
+- **73% hitters, 25% SP, 2% RP** in Round 1
+- **57% hitters, 33% SP, 10% RP** in Rounds 2–3
+- This is where ace SPs and the rare elite closer go
+- Common Round 1 pitcher picks: Scherzer, Kershaw, Glasnow, Corbin Burnes, Chris Sale, Zack Wheeler, Brandon Woodruff
 - If you want an ace SP, you need to take one by Round 3
 
 ### Rounds 4–7: Roster Construction
 - Mix of SP2/SP3 arms, top closers, and solid everyday hitters
-- **RP drafting peaks in Rounds 4–5** (16% of all picks)
+- **RP drafting peaks in Rounds 4–5** (20% of all picks)
 - Key strategy zone: if you went hitter-heavy in Rounds 1–3, pitching must start here
 
 ### Rounds 8–12: Value Hunting
-- Mostly hitters (75–88%)
+- Mostly hitters (67–71%)
 - Mid-rotation SPs and setup men still available
 - This is where draft winners are made — breakout candidates and undervalued vets
 
 ### Rounds 13–18: Bench and Depth
-- 85%+ hitters
-- Occasional SP flier or speculative RP add
+- 67–77% hitters
+- SP and RP still drafted at meaningful rates (13–19% combined)
 - Positional fill (C, backup IF/OF)
 
 ### Rounds 19–23: Keeper Stashes and Lottery Tickets
-- Almost entirely hitters (87–94%)
+- 71–78% hitters
 - **This is where keeper leagues are won** — Bobby Witt Jr. went in Rd 10 (2023), Rd 7 (2024), Rd 9 (2025). Julio Rodríguez has been a late-round keeper stash for years
 - Top prospects and injured stars are common targets
+- SPs still going at 13–26% rate — teams stash pitching prospects late
 
 ---
 
@@ -99,28 +102,28 @@
 ### #BlackCommissioners
 | Stat | Value |
 |------|-------|
-| Drafts analyzed | 5 (2020–2025) |
-| Split | 78% H / 13% SP / 8% RP |
-| Avg first pitcher | Round 4.0 |
-| Avg first RP | Round 3.7 |
+| Drafts analyzed | 6 (2020–2025) |
+| Split | 74% H / 17% SP / 9% RP |
+| Avg first pitcher | Round 3.2 |
+| Avg first RP | Round 4.2 |
 | Best finish | Unknown (never champion) |
 
-**Profile: RP-first pitching approach.** This owner drafts RPs before SPs, grabbing closers by Round 3–4. In 2020, they kept 8 players (the most keepers in the dataset). Their Round 1 picks show a preference for elite position players (Rendon, Semien, Arenado, Ohtani) with one exception (Luis Castillo in 2024). Tends to load up on hitters in the middle rounds.
+**Profile: Balanced with RP lean.** This owner mixes SPs and RPs but grabs closers earlier than most (avg Rd 4.2 for first RP). In 2020, they kept 8 players (the most keepers in the dataset). Their Round 1 picks show a preference for elite position players (Rendon, Arozarena, Semien, Arenado, Ohtani) with one exception (Luis Castillo in 2024).
 
-**Exploit:** They rarely draft SPs early, so ace starters will still be available if you pick after them.
+**Exploit:** They rarely draft SPs early (avg Rd 3.2 for first SP), so ace starters will still be available if you pick after them.
 
 ---
 
 ### Cuck Showalters (2023 Champion)
 | Stat | Value |
 |------|-------|
-| Drafts analyzed | 5 (2020–2025) |
-| Split | 75% H / 17% SP / 6% RP |
-| Avg first pitcher | Round 1.8 |
-| Avg first RP | Round 4.6 |
+| Drafts analyzed | 6 (2020–2025) |
+| Split | 66% H / 22% SP / 12% RP |
+| Avg first pitcher | Round 2.2 |
+| Avg first RP | Round 4.5 |
 | Best finish | **1st (2023)** |
 
-**Profile: Balanced with early SP lean.** Takes a pitcher in Round 1 or 2 almost every year. Championship year (2023) started with Ozzie Albies (Rd 1), Zack Wheeler (Rd 2), Carlos Rodón (Rd 3) — a strong SP foundation paired with a high-floor hitter. Doesn't chase RPs early (avg Rd 4.6 for first RP).
+**Profile: SP-heavy, most balanced pitcher drafter.** Highest combined pitching rate in the league (34% SP+RP). Takes a pitcher in Round 1 or 2 almost every year. Championship year (2023) started with Ozzie Albies (Rd 1), Zack Wheeler (Rd 2), Carlos Rodón (Rd 3) — a strong SP foundation paired with a high-floor hitter. Rd 1 picks are consistently hitters (Altuve, Albies 2x, Eloy, Austin Riley) with one SP exception (Max Fried 2024).
 
 **Exploit:** Predictably takes an SP in the first 2 rounds. If you need a specific hitter, they likely won't be competing for them.
 
@@ -129,43 +132,43 @@
 ### Curtis Granderslams
 | Stat | Value |
 |------|-------|
-| Drafts analyzed | 5 (2020–2025) |
-| Split | 78% H / 11% SP / 9% RP |
-| Avg first pitcher | Round 6.8 |
-| Avg first RP | Round 3.8 |
+| Drafts analyzed | 6 (2020–2025) |
+| Split | 64% H / 19% SP / 16% RP |
+| Avg first pitcher | Round 9.5 |
+| Avg first RP | Round 5.0 |
 | Best finish | Middle of the pack |
 
-**Profile: Hitter-obsessed.** Waits the longest of anyone to draft a pitcher (avg Round 6.8 for first SP). Famously loyal — drafted Freddie Freeman in Round 1 three years in a row (2020, 2022, 2023). Grabs RPs earlier than SPs, suggesting they value bullpen arms over rotation depth. Has used keepers (2020: 2 keepers, 2024: 1 keeper).
+**Profile: Hitter-obsessed, late SP drafter.** Waits the longest of anyone to draft an SP (avg Round 9.5 for first SP!). Famously loyal — drafted Freddie Freeman in Round 1 four years in a row (2020–2023). Grabs RPs far earlier than SPs (avg Rd 5.0 vs 9.5), suggesting they value bullpen arms over rotation depth. Highest RP% in the league (16%).
 
-**Exploit:** Starting pitchers will always be available after their picks. They create a run on hitters in the early rounds.
+**Exploit:** Starting pitchers will always be available after their picks. They create a run on hitters in the early rounds but leave SPs on the board deep into the draft.
 
 ---
 
 ### D.C. Funbaggers
 | Stat | Value |
 |------|-------|
-| Drafts analyzed | 5 (2020–2025) |
-| Split | 74% H / 20% SP / 4% RP |
-| Avg first pitcher | Round 3.0 |
-| Avg first RP | Round 11.8 |
+| Drafts analyzed | 6 (2020–2025) |
+| Split | 62% H / 24% SP / 14% RP |
+| Avg first pitcher | Round 2.7 |
+| Avg first RP | Round 10.3 |
 | Best finish | 3rd (2025) |
 
-**Profile: SP-heavy, ignores RPs until late.** The most SP-heavy drafter in the league (20% of all picks are starting pitchers). Opens with a hitter then takes SPs in Rounds 2–4. Almost completely ignores RPs until Round 12+ (avg first RP: Round 11.8 — latest in the league). Clayton Kershaw was their Round 1 pick in 2020.
+**Profile: SP-heavy, ignores RPs until late.** Second-highest SP% in the league (24%). Opens with a hitter then takes SPs in Rounds 2–4. Almost completely ignores RPs until Round 10+ (avg first RP: Round 10.3 — latest in the league). Took SPs in Round 1 twice (Kershaw 2020, Woodruff 2021), showing a willingness to lead with pitching.
 
-**Exploit:** They'll never compete with you for closers or setup men. But they will snap up mid-tier SPs quickly.
+**Exploit:** They'll never compete with you for closers or setup men early. But they will snap up mid-tier SPs quickly.
 
 ---
 
 ### Late Round Fliers
 | Stat | Value |
 |------|-------|
-| Drafts analyzed | 5 (2020–2025) |
-| Split | 79% H / 12% SP / 8% RP |
-| Avg first pitcher | Round 2.8 |
-| Avg first RP | Round 6.8 |
+| Drafts analyzed | 6 (2020–2025) |
+| Split | 73% H / 19% SP / 8% RP |
+| Avg first pitcher | Round 5.8 |
+| Avg first RP | Round 8.7 |
 | Best finish | 3rd (2024) |
 
-**Profile: Hitter-first, pitcher-patient.** Loads up on hitters early (19 hitters in Rounds 1–5 across 5 drafts, the most of any team). Takes a pitcher by Round 3 but it's usually just one. Mixes in an RP around Rounds 5–7. Named after their strategy — they believe in finding value late.
+**Profile: Hitter-first, pitcher-patient.** Loads up on hitters early and waits on pitching (avg first pitcher Rd 5.8). Rd 1 picks are split between hitters (Blackmon, Story, Semien, Seager) and the occasional SP (Darvish 2021, Corbin Burnes 2024). Named after their strategy — they believe in finding value late.
 
 **Exploit:** They create demand for early-round hitters. If you're comfortable going pitcher-heavy early, you can dodge their picks entirely.
 
@@ -174,28 +177,28 @@
 ### LowBallers
 | Stat | Value |
 |------|-------|
-| Drafts analyzed | 5 (2020–2025) |
-| Split | 73% H / 22% SP / 4% RP |
-| Avg first pitcher | Round 4.8 |
-| Avg first RP | Round 11.0 |
+| Drafts analyzed | 6 (2020–2025) |
+| Split | 70% H / 25% SP / 6% RP |
+| Avg first pitcher | Round 6.8 |
+| Avg first RP | Round 9.0 |
 | Best finish | 2nd (2024) |
 
-**Profile: SP accumulator, RP-averse.** Second-highest SP% in the league (22%) but rarely touches RPs (4% — tied for lowest). Waits until Round 11 on average for their first reliever. Their 2022 draft (Brandon Woodruff Rd 1, Aaron Nola Rd 2) was the most pitcher-aggressive opening in the dataset.
+**Profile: SP accumulator, RP-averse.** Highest SP% in the league (25%) but rarely touches RPs (6% — lowest in the league). Waits until Round 9 on average for their first reliever. Their 2022 draft (Brandon Woodruff Rd 1, Aaron Nola Rd 2) was one of the most pitcher-aggressive openings in the dataset. Takes hitters in Rd 1 most years (Meadows, Rendon, Arozarena, Jazz) but packs the roster with SPs in the middle rounds.
 
-**Exploit:** Like D.C. Funbaggers, they won't compete for RPs. But they WILL snap up SP value.
+**Exploit:** Like D.C. Funbaggers, they won't compete for RPs. But they WILL snap up SP value throughout the draft.
 
 ---
 
 ### Machine Needs Sugar
 | Stat | Value |
 |------|-------|
-| Drafts analyzed | 5 (2020–2025) |
-| Split | 80% H / 11% SP / 8% RP |
-| Avg first pitcher | Round 1.4 |
-| Avg first RP | Round 5.0 |
+| Drafts analyzed | 6 (2020–2025) |
+| Split | 68% H / 18% SP / 14% RP |
+| Avg first pitcher | Round 1.3 |
+| Avg first RP | Round 5.7 |
 | Best finish | 2nd (2020, 2025) |
 
-**Profile: Drafts a pitcher immediately, then goes hitter.** Has the earliest average first pitcher (Round 1.4) — took an SP in Round 1 in 3 of 5 years (José Berríos 2020 Rd 2, Aaron Nola 2023, Logan Webb 2024, Corbin Burnes 2025). After grabbing their ace, they pivot hard to hitters. Consistent playoff contender (2nd place twice, 3rd once) but has never won the championship.
+**Profile: Drafts a pitcher immediately, then goes hitter.** Has the earliest average first pitcher (Round 1.3) — took an SP in Round 1 in 4 of 6 years (Luis Castillo 2021, Aaron Nola 2023, Logan Webb 2024, Corbin Burnes 2025). After grabbing their ace, they pivot hard to hitters. Consistent playoff contender (2nd place twice) but has never won the championship.
 
 **Exploit:** Their ace SP pick in Round 1–2 is predictable. If they pick before you, expect a pitcher to come off the board.
 
@@ -204,43 +207,43 @@
 ### Never Break The Chaim (2022 Champion)
 | Stat | Value |
 |------|-------|
-| Drafts analyzed | 5 (2020–2025) |
-| Split | 81% H / 12% SP / 6% RP |
-| Avg first pitcher | Round 2.2 |
-| Avg first RP | Round 7.8 |
+| Drafts analyzed | 6 (2020–2025) |
+| Split | 69% H / 19% SP / 12% RP |
+| Avg first pitcher | Round 3.2 |
+| Avg first RP | Round 8.3 |
 | Best finish | **1st (2022)** |
 
-**Profile: Shohei Ohtani loyalist, hitter-heavy.** Drafted Ohtani (Batter) in Round 1 three years straight (2022–2024). Most hitter-heavy team in the league (81%). Takes a pitcher by Round 2 but fills the rest of the roster with bats. Championship year (2022) started Ohtani Rd 1, Yu Darvish Rd 4, Mitch Haniger Rd 5 — heavy hitter lean with limited early pitching.
+**Profile: Shohei Ohtani loyalist with SP foundation.** Drafted Ohtani (Batter) in Round 1 three years straight (2022–2024). Started the franchise as "Bauer Units" with Mike Clevinger Rd 1 (2020), then Clayton Kershaw Rd 1 + Max Scherzer Rd 2 (2021) — their most SP-heavy draft. Championship year (2022) started Ohtani Rd 1, then pivoted to hitters with Yu Darvish Rd 4 as their ace. Switched to Roki Sasaki in 2025 after Ohtani became unavailable.
 
-**Exploit:** If Ohtani isn't available (keeper?), their Round 1 pick is harder to predict. Otherwise, expect them to go bat-heavy.
+**Exploit:** If Ohtani isn't available (keeper?), their Round 1 pick is harder to predict. They tend to go hitter-heavy after Round 2 — SPs will be available in the mid-rounds after they pick.
 
 ---
 
 ### The Phavorites
 | Stat | Value |
 |------|-------|
-| Drafts analyzed | 5 (2020–2025) |
-| Split | 82% H / 8% SP / 8% RP |
-| Avg first pitcher | Round 2.0 |
-| Avg first RP | Round 2.0 |
+| Drafts analyzed | 6 (2020–2025) |
+| Split | 75% H / 14% SP / 11% RP |
+| Avg first pitcher | Round 8.5 |
+| Avg first RP | Round 2.2 |
 | Best finish | Middle of the pack (never top 3) |
 
-**Profile: Creature of habit, catcher lover.** Drafted J.T. Realmuto in Round 1 four straight years (2020–2024). Takes an RP in Round 2 almost every year (Aroldis Chapman, Raisel Iglesias 3x). Lowest SP% in the league (8%) — barely drafts starting pitchers at all, relying on RPs and the waiver wire for pitching.
+**Profile: Creature of habit, catcher loyalist.** Drafted J.T. Realmuto in Round 1 FIVE straight years (2020–2024) before switching to Freddie Freeman in 2025. Takes an RP in Round 2 almost every year (Aroldis Chapman, Raisel Iglesias multiple times). Lowest avg first SP in the league (Round 8.5) — barely drafts starting pitchers at all, relying on late-round SPs and the waiver wire.
 
-**Exploit:** Their Round 1 (catcher) and Round 2 (closer) picks are the most predictable in the league. Plan around them. They'll never compete for starting pitchers.
+**Exploit:** Their Round 1 (catcher) and Round 2 (closer) picks are the most predictable in the league. Plan around them. They'll never compete for starting pitchers before Round 8.
 
 ---
 
 ### WaRshington Natinals (2025 Champion)
 | Stat | Value |
 |------|-------|
-| Drafts analyzed | 5 (2020–2025) |
-| Split | 73% H / 18% SP / 7% RP |
-| Avg first pitcher | Round 2.2 |
-| Avg first RP | Round 9.4 |
+| Drafts analyzed | 6 (2020–2025) |
+| Split | 66% H / 22% SP / 12% RP |
+| Avg first pitcher | Round 2.5 |
+| Avg first RP | Round 8.8 |
 | Best finish | **1st (2025)**, 2nd (2023), 3rd (2021) |
 
-**Profile: SP-focused, consistently competitive.** The most successful team in the dataset (champion, runner-up, and 3rd place finishes). Takes an SP in Rounds 1–2 consistently (Glasnow, Yamamoto, Chris Sale). Ignores RPs until Round 9+ (only D.C. Funbaggers and LowBallers wait longer). Heavy SP investment pays off — 18% of all picks are starters.
+**Profile: SP-focused, consistently competitive.** The most successful team in the dataset (champion, runner-up, and 3rd place finishes). Takes an SP in Rounds 1–2 consistently (Glasnow 2020, Yamamoto 2024, Chris Sale 2025). Ignores RPs until Round 8–9 (avg first RP: Rd 8.8). Heavy SP investment pays off — 22% of all picks are starters. Rd 1 picks are a mix of SPs and hitters (Glasnow, Springer, Goldschmidt, Olson, Yamamoto, Sale).
 
 **Exploit:** They will always take a top SP early. If you want the same pitcher, you need to pick before them. Their RP ignorance means closers will be available in mid-rounds if they pick before you.
 
@@ -249,13 +252,13 @@
 ### Ya Gotta Believe
 | Stat | Value |
 |------|-------|
-| Drafts analyzed | 5 (2020–2025) |
-| Split | 77% H / 16% SP / 6% RP |
-| Avg first pitcher | Round 1.4 |
-| Avg first RP | Round 6.6 |
+| Drafts analyzed | 6 (2020–2025) |
+| Split | 68% H / 20% SP / 12% RP |
+| Avg first pitcher | Round 1.5 |
+| Avg first RP | Round 6.8 |
 | Best finish | 2nd (2022) |
 
-**Profile: Ace-first drafter.** Takes an SP in Round 1 more often than anyone (Strasburg, Ohtani Pitcher, Zack Wheeler twice). Strong SP lean early, then fills with hitters. Championship runner-up (2022) opened with Tim Anderson Rd 1 and Clayton Kershaw Rd 2. Loves high-end arms but doesn't chase RPs.
+**Profile: Ace-first drafter.** Takes an SP in Round 1 more often than anyone — Strasburg (2020), Ohtani Pitcher (2023), Zack Wheeler (2024, 2025). Rd 1 is split between hitters (Yelich 2021, Tim Anderson 2022) and SPs. Strong SP lean early (avg first pitcher Rd 1.5), then fills with hitters. Championship runner-up (2022) opened with Tim Anderson Rd 1 and Clayton Kershaw Rd 2. Loves high-end arms but doesn't chase RPs early.
 
 **Exploit:** Expect a Round 1 pitcher from this team. If you need the same ace, draft before them.
 
@@ -266,13 +269,13 @@
 ### Draft Profile
 | Stat | Value |
 |------|-------|
-| Drafts analyzed | 5 (2020–2025) |
-| Split | 73% H / 17% SP / 8% RP |
-| Avg first pitcher | Round 1.8 |
-| Avg first RP | Round 2.5 |
+| Drafts analyzed | 6 (2020–2025) |
+| Split | 64% H / 25% SP / 11% RP |
+| Avg first pitcher | Round 3.2 |
+| Avg first RP | Round 6.7 |
 | Best finish | **1st (2024)** |
 
-**You are the most RP-aggressive drafter in the league.** Your average first RP pick is Round 2.5 — no one else is close. You've opened with a reliever in Round 1 (Jordan Romano 2023, Emmanuel Clase 2025) and frequently have 2+ RPs by Round 5.
+**You are one of the more SP-heavy drafters in the league** (25% SP rate, tied with LowBallers for highest). Your RP rate (11%) is moderate, and your first RP timing (avg Rd 6.7) is middle-of-the-pack. However, your most memorable picks have been bold RP-in-Round-1 moves (Romano 2023, Clase 2025).
 
 ### Year-by-Year Breakdown
 
@@ -283,6 +286,18 @@
 - **Rd 6:** Edwin Díaz (2nd RP by Rd 6)
 - **Problem:** Too many RPs too early (3 relievers by Rd 11), weak SP core, late-round hitters were mostly misses
 - **Lesson:** RP-heavy without SP support doesn't work
+
+#### 2021 — Finish Unknown
+- **Rd 1:** José Ramírez (kept from 2020 — strong)
+- **Rd 2:** Marcell Ozuna (post-MVP year — risky)
+- **Rd 3:** MacKenzie Gore (SP prospect — high ceiling)
+- **Rd 4:** Dinelson Lamet (SP — injury risk)
+- **Rd 5:** Salvador Perez (C — rare early catcher pick)
+- **Rd 11:** CJ Abrams (prospect stash — paid off later)
+- **Rd 15:** Chris Sale (injured ace — stash play)
+- **Rd 20:** Corbin Carroll (prospect stash — paid off hugely)
+- **Rd 21:** Pablo López (SP stash — later became a starter)
+- **Assessment:** SP-heavy draft (6 SPs) with excellent prospect stashing. The Gore/Lamet picks were swings on upside. Carroll in Rd 20 and CJ Abrams in Rd 11 were outstanding keeper finds.
 
 #### 2022 — 11th Place
 - **Rd 1:** Max Scherzer (ace SP — good)
@@ -318,10 +333,11 @@
 ### Your Patterns
 | Pattern | Frequency | Impact |
 |---------|-----------|--------|
-| RP in Round 1 | 2 of 5 years | Mixed — correlated with playoff appearances but not the championship |
+| RP in Round 1 | 2 of 6 years | Mixed — correlated with playoff appearances but not the championship |
+| SP-heavy draft (5+ SPs) | 4 of 6 years | Core strategy — you draft more SPs than most teams |
 | Keeper stashing (Rd 17+) | Every year since 2023 | **Massive edge** — your keeper pipeline is the best in the league |
-| SP block (3+ SPs in first 8 rounds) | 3 of 5 years | Necessary for competing |
 | Bobby Witt Jr. keeper | 3 straight years | Core piece, increasing round cost |
+| Prospect identification | Strong since 2021 | Carroll Rd 20, Abrams Rd 11, Witt Rd 10, Elly late — consistently finding future stars |
 
 ---
 
@@ -332,29 +348,30 @@ What do champions in this league have in common?
 | Year | Champion | Rd 1 Pick | SP in Top 5 | RP in Top 5 | Key Trait |
 |------|----------|-----------|-------------|-------------|-----------|
 | 2020 | The Disabled List | Christian Yelich (H) | 1 (Trevor Bauer Rd 3) | 0 | Balanced, no RPs early |
+| 2021 | DC Race Relations | DJ LeMahieu (H) | 1 (Kenta Maeda Rd 2) | 0 | Hitter-first, SP by Rd 2 |
 | 2022 | Never Break The Chaim | Ohtani Batter | 1 (Yu Darvish Rd 4) | 0 | Hitter-heavy, minimal early pitching |
 | 2023 | Cuck Showalters | Ozzie Albies (H) | 2 (Wheeler Rd 2, Rodón Rd 3) | 0 | Strong SP foundation, zero early RPs |
 | 2024 | **I Would Die 4 YU** | Corey Seager (H) | 1 (G. Rodriguez Rd 2) | 2 (Fairbanks Rd 4, Cano Rd 5) | Keeper value dominance |
 | 2025 | WaRshington Natinals | Chris Sale (SP) | 3 (Sale Rd 1, Yamamoto Rd 2, Webb Rd 3) | 0 | SP-stacked, no early RPs |
 
 **Championship formula:**
-1. **Round 1 is almost always a hitter** (4 of 5 champions)
+1. **Round 1 is almost always a hitter** (5 of 6 champions)
 2. **Zero RPs in the top 3 rounds** (every champion except you in 2024, and you compensated with keeper value)
 3. **At least 1 SP in the top 5 picks** (every champion)
-4. **The SP-heavy approach wins** — 3 of 5 champions had 2+ SPs in their top 5 picks
+4. **The SP-heavy approach wins** — 4 of 6 champions had 2+ SPs in their top 5 picks
 
 ---
 
 ## Actionable Takeaways for 2026
 
 ### 1. Draft a Hitter in Round 1
-Four of five champions took a hitter first. In a 12-team league with deeper talent, an elite hitter in Round 1 provides the most stable foundation. Your championship year started with Corey Seager.
+Five of six champions took a hitter first. In a 12-team league with deeper talent, an elite hitter in Round 1 provides the most stable foundation. Your championship year started with Corey Seager.
 
 ### 2. Take Your Ace SP by Round 3
 Every champion had at least one ace SP in their top 5 picks. Don't wait until Round 4+ for your first starter. The sweet spot is Round 2–3 for an SP1.
 
 ### 3. Delay RPs Until Round 4+
-Your tendency to take RPs in Rounds 1–2 (Romano, Clase) is the most aggressive in the league and it hasn't consistently translated to championships. The 2024 championship had RPs in Rounds 4–5, not 1–2. In a 7x7 with HLD, setup men are available later.
+Your tendency to take RPs in Rounds 1–2 (Romano, Clase) is aggressive and it hasn't consistently translated to championships. The 2024 championship had RPs in Rounds 4–5, not 1–2. In a 7x7 with HLD, setup men are available later.
 
 ### 4. Leverage Your Keeper Pipeline
 Your keeper stash strategy (Witt Jr., J-Rod, Elly, Soto, Tatis) is your biggest competitive advantage. Whoever you can keep at late-round value gives you a massive edge. Build around those keepers.
@@ -365,8 +382,9 @@ Your 2022 draft (11th place) failed because mid-round hitters busted. Your 2024 
 ### 6. Exploit Opponent Tendencies
 - **The Phavorites** will take a catcher early and an RP in Round 2 — don't compete
 - **WaRshington Natinals, D.C. Funbaggers, LowBallers** will take SPs early — if you want one, pick before them
-- **Curtis Granderslams** and **Late Round Fliers** go hitter-heavy — SPs will be available after their picks
+- **Curtis Granderslams** goes hitter-heavy and waits until Rd 9+ for SPs — SPs will be available after their picks
 - **Machine Needs Sugar** and **Ya Gotta Believe** take a pitcher in Round 1 — expect 2 fewer top SPs
+- **Never Break The Chaim** will draft Ohtani (if available) or another marquee hitter in Round 1
 
 ### 7. The 12-Team Advantage
 With 4 fewer teams than last year, there are ~92 fewer picks (4 teams × 23 rounds). Players who went in Rounds 8–10 in a 14-team league may slide to Rounds 6–8. Adjust your ADP expectations and be willing to wait on positions with depth.
@@ -384,4 +402,4 @@ With 4 fewer teams than last year, there are ~92 fewer picks (4 teams × 23 roun
 
 ---
 
-*Analysis based on 1,847 draft picks across 6 seasons (2020–2025). Player classification (H/SP/RP) based on primary position at time of draft.*
+*Analysis based on 2,147 draft picks across 6 seasons (2020–2025). Player classification (H/SP/RP) based on primary position at time of draft.*
