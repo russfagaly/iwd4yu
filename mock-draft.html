@@ -934,13 +934,12 @@ function aiPickPlayer(teamIdx) {
     // Penalty for reaching (picking well before ADP)
     if (adpDiff > 50) score -= adpDiff * 0.15;
 
-    // Positional need bonus — scales with urgency
+    // Positional need bonus — flat bonus for any unfilled position, scales with urgency
     const playerPositions = p.pos;
     let needBonus = 0;
     playerPositions.forEach(pos => {
       if (needs[pos] && needs[pos] > 0) {
-        // Higher bonus for positions with more open slots (e.g. SP needs 5, RP needs 4)
-        needBonus = Math.max(needBonus, 15 + needs[pos] * 5);
+        needBonus = 20;
       }
     });
     needBonus *= urgencyMultiplier;
