@@ -245,6 +245,14 @@ input, select { font-family: inherit; }
   </div>
 
   <div class="form-group">
+    <label>Auto-Draft Mode</label>
+    <div class="timer-toggle">
+      <input type="checkbox" id="auto-draft-enabled">
+      <span>Auto-draft for I Would Die 4 YU (full simulation)</span>
+    </div>
+  </div>
+
+  <div class="form-group">
     <label>Your Keepers (optional)</label>
     <div id="keepers-list"></div>
     <button id="add-keeper-btn" onclick="addKeeperRow()">+ Add Keeper</button>
@@ -841,9 +849,9 @@ function makePick(playerId) {
   const { round, teamIdx } = getPickOrder(state.currentPick);
   const player = getPlayerById(playerId);
   if (!player) return;
-  // If already drafted, skip and retry the AI pick
+  // If already drafted, skip and retry the pick
   if (state.drafted.has(playerId)) {
-    if (teamIdx !== state.userTeamIdx) {
+    if (teamIdx !== state.userTeamIdx || state.autoDraft) {
       onAiTurn();
     }
     return;
@@ -877,6 +885,31 @@ function makePick(playerId) {
 }
 
 function onUserTurn() {
+  // If auto-draft is enabled, treat user's pick like an AI pick
+  if (state.autoDraft) {
+    if (!state.draftActive || state.currentPick >= state.totalPicks) { endDraft(); return; }
+    const { teamIdx } = getPickOrder(state.currentPick);
+    const banner = document.getElementById("otc-banner");
+    banner.innerHTML = `<div class="ai-picking-banner"><span class="team-name">${TEAM_NAMES[teamIdx]}</span> is auto-picking...</div>`;
+    document.getElementById("auto-pick-btn").style.display = "none";
+    document.getElementById("pause-btn").style.display = "none";
+    state.aiTimeout = setTimeout(() => {
+      try {
+        const player = aiPickPlayer(state.userTeamIdx);
+        if (player) {
+          showNotification(`${TEAM_NAMES[state.userTeamIdx]} auto-picks ${player.name} (${player.pos.join("/")})`);
+          makePick(player.id);
+        } else {
+          endDraft();
+        }
+      } catch (e) {
+        console.error("Auto-draft pick error:", e);
+        endDraft();
+      }
+    }, state.aiSpeed);
+    return;
+  }
+
   clearTimer();
   const banner = document.getElementById("otc-banner");
   banner.innerHTML = `<div class="on-the-clock">You're On The Clock!<div class="otc-sub">Select a player to draft</div></div>`;
@@ -1181,6 +1214,7 @@ function startDraft() {
   state.userTeamIdx = parseInt(document.getElementById("draft-position").value);
   state.aiSpeed = parseInt(document.getElementById("ai-speed").value);
   state.timerEnabled = document.getElementById("timer-enabled").checked;
+  state.autoDraft = document.getElementById("auto-draft-enabled").checked;
   state.totalPicks = state.numTeams * state.numRounds;
   state.currentPick = 0;
   state.drafted = new Set();
