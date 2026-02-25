@@ -170,10 +170,12 @@ input, select { font-family: inherit; }
 .results-team table { width: 100%; border-collapse: collapse; font-size: 0.85em; }
 .results-team th { text-align: left; padding: 4px 8px; color: var(--text-dim); border-bottom: 1px solid var(--border); }
 .results-team td { padding: 4px 8px; }
-#export-btn, #new-draft-btn {
+#export-btn, #new-draft-btn, #view-board-btn, #back-to-results-btn {
   padding: 10px 24px; border-radius: 6px; border: none; font-size: 0.95em; font-weight: 600; margin: 5px;
 }
 #export-btn { background: var(--surface2); color: var(--text); border: 1px solid var(--border); }
+#view-board-btn { background: var(--surface2); color: var(--text); border: 1px solid var(--border); }
+#back-to-results-btn { background: var(--surface2); color: var(--text); border: 1px solid var(--border); }
 #new-draft-btn { background: var(--accent); color: white; }
 .results-actions { text-align: center; margin-bottom: 20px; }
 
@@ -279,6 +281,7 @@ input, select { font-family: inherit; }
       <span id="timer-display"></span>
       <button id="pause-btn" onclick="togglePause()" style="display:none">Pause</button>
       <button id="auto-pick-btn" onclick="userAutoPick()" style="display:none">Auto-Pick</button>
+      <button id="back-to-results-btn" onclick="showResults()" style="display:none">Back to Results</button>
     </div>
   </div>
 
@@ -345,6 +348,7 @@ input, select { font-family: inherit; }
 <div id="results-screen">
   <h2>Draft Results</h2>
   <div class="results-actions">
+    <button id="view-board-btn" onclick="showDraftBoard()">View Draft Board</button>
     <button id="export-btn" onclick="exportResults()">Copy Results to Clipboard</button>
     <button id="new-draft-btn" onclick="location.reload()">New Draft</button>
   </div>
@@ -1444,6 +1448,22 @@ function endDraft() {
     html += '</tbody></table></div>';
   }
   document.getElementById("results-content").innerHTML = html;
+}
+
+function showDraftBoard() {
+  document.getElementById("results-screen").style.display = "none";
+  document.getElementById("draft-screen").style.display = "block";
+  document.getElementById("back-to-results-btn").style.display = "inline-block";
+  // Hide draft-in-progress controls
+  document.getElementById("otc-banner").innerHTML = '<div style="padding:10px;text-align:center;color:var(--gold);font-weight:700">Draft Complete — Viewing Draft Board</div>';
+  document.getElementById("auto-pick-btn").style.display = "none";
+  document.getElementById("pause-btn").style.display = "none";
+}
+
+function showResults() {
+  document.getElementById("draft-screen").style.display = "none";
+  document.getElementById("results-screen").style.display = "block";
+  document.getElementById("back-to-results-btn").style.display = "none";
 }
 
 function exportResults() {
