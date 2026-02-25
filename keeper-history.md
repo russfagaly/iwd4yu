@@ -148,146 +148,324 @@ No keepers in 2020.
 
 ## 2021 Season Keepers
 
-### #BlackCommissioners (4 keepers)
-| Round | Pick | Player |
-|-------|------|--------|
-| 14 | 220 | Jacob deGrom |
-| 16 | 252 | Ronald Acuña Jr. |
-| 20 | 316 | Jeff McNeil |
-| 21 | 332 | Fernando Tatis Jr. |
+*Sources: Yahoo draft results HTML + Google Sheets keeper document. Owner first names included where available.*
 
-### Cuck Showalters (5 keepers)
-| Round | Pick | Player |
-|-------|------|--------|
-| 16 | 247 | Pete Alonso |
-| 17 | 263 | Alec Bohm |
-| 21 | 327 | Francisco Lindor |
-| 22 | 343 | Juan Soto |
-| 23 | 359 | Shane Bieber |
+### #BlackCommissioners — Joel (4 keepers)
+| Round | Player |
+|-------|--------|
+| 14 | Jacob deGrom |
+| 16 | Ronald Acuña Jr. |
+| 20 | Jeff McNeil |
+| 21 | Fernando Tatis Jr. |
 
-### Curtis Granderslams (5 keepers)
-| Round | Pick | Player |
-|-------|------|--------|
-| 1 | 9 | Freddie Freeman |
-| 17 | 265 | Matt Chapman |
-| 18 | 281 | Manny Machado |
-| 22 | 345 | Max Fried |
-| 23 | 361 | Jesús Luzardo |
+### Bauer Units / Trevor Bauer Is A Scumbag → *Never Break The Chaim* — Jason (5 keepers)
+| Round | Player |
+|-------|--------|
+| 3 | Max Scherzer |
+| 5 | Michael Conforto |
+| 8 | Paul Goldschmidt |
+| 10 | Tim Anderson |
+| 23 | Ke'Bryan Hayes |
 
-### D.C. Funbaggers (5 keepers)
-| Round | Pick | Player |
-|-------|------|--------|
-| 16 | 250 | Wil Myers |
-| 20 | 314 | Nolan Arenado |
-| 21 | 330 | Mookie Betts |
-| 22 | 346 | Javier Báez |
-| 23 | 362 | Corbin Burnes |
+### Cuck Showalters — Drew (5 keepers)
+| Round | Player |
+|-------|--------|
+| 16 | Pete Alonso |
+| 17 | Alec Bohm |
+| 21 | Francisco Lindor |
+| 22 | Juan Soto |
+| 23 | Shane Bieber |
 
-### DC Race Relations *(left after 2024)* (5 keepers)
-| Round | Pick | Player |
-|-------|------|--------|
-| 18 | 277 | Bo Bichette |
-| 19 | 293 | Mike Trout |
-| 20 | 309 | Kris Bryant |
-| 21 | 325 | Whit Merrifield |
-| 22 | 341 | Wander Franco |
+### Curtis Granderslams — Karly (5 keepers)
+| Round | Player |
+|-------|--------|
+| 1 | Freddie Freeman |
+| 17 | Matt Chapman |
+| 18 | Manny Machado |
+| 22 | Max Fried |
+| 23 | Jesús Luzardo |
 
-### Human Highlight Reel *(left after 2025)* (5 keepers)
-| Round | Pick | Player |
-|-------|------|--------|
-| 18 | 286 | Jack Flaherty |
-| 19 | 302 | Trea Turner |
-| 21 | 334 | Cody Bellinger |
-| 22 | 350 | Luis Robert Jr. |
-| 23 | 366 | Trent Grisham |
+### D.C. Funbaggers — Corey (5 keepers)
+| Round | Player |
+|-------|--------|
+| 16 | Wil Myers |
+| 20 | Nolan Arenado |
+| 21 | Mookie Betts |
+| 22 | Javier Báez |
+| 23 | Corbin Burnes |
 
-### I Would Die 4 YU (3 keepers)
-| Round | Pick | Player |
-|-------|------|--------|
-| 18 | 273 | Paul DeJong |
-| 21 | 321 | Pablo López |
-| 22 | 337 | Ian Happ |
+### DC Race Relations — Russ (5 keepers)
+| Round | Player |
+|-------|--------|
+| 18 | Bo Bichette |
+| 19 | Mike Trout |
+| 20 | Kris Bryant |
+| 21 | Whit Merrifield |
+| 22 | Wander Franco |
 
-### Late Round Fliers (3 keepers)
-| Round | Pick | Player |
-|-------|------|--------|
-| 6 | 88 | Aaron Nola |
-| 9 | 136 | Blake Snell |
-| 22 | 344 | Aaron Judge |
+### Human Highlight Reel — Dom (5 keepers)
+| Round | Player |
+|-------|--------|
+| 18 | Jack Flaherty |
+| 19 | Trea Turner |
+| 21 | Cody Bellinger |
+| 22 | Luis Robert Jr. |
+| 23 | Trent Grisham |
 
-### LowBallers (5 keepers)
-| Round | Pick | Player |
-|-------|------|--------|
-| 11 | 166 | Chris Paddack |
-| 15 | 230 | Chris Bassitt |
-| 21 | 326 | Sean Manaea |
-| 22 | 342 | Kevin Gausman |
-| 23 | 358 | Cristian Javier |
+### I Would Die 4 YU (Khalil's Knuckles) — Steve (3 keepers)
+| Round | Player |
+|-------|--------|
+| 18 | Paul DeJong |
+| 21 | Pablo López |
+| 22 | Ian Happ |
 
-### Machine Needs Sugar (5 keepers)
-| Round | Pick | Player |
-|-------|------|--------|
-| 4 | 63 | Trevor Story |
-| 19 | 303 | Kyle Tucker |
-| 21 | 335 | Rafael Devers |
-| 22 | 351 | Lance Lynn |
-| 23 | 367 | Mike Yastrzemski |
+### Late Round Fliers — Adam (3 keepers)
+| Round | Player |
+|-------|--------|
+| 6 | Aaron Nola |
+| 9 | Blake Snell |
+| 22 | Aaron Judge |
 
-### Panda Xpress *(left after 2025)* (4 keepers)
-| Round | Pick | Player |
-|-------|------|--------|
-| 1 | 4 | Xander Bogaerts |
-| 2 | 20 | J.D. Martinez |
-| 4 | 68 | Alex Bregman |
-| 19 | 292 | Walker Buehler |
+### LowBallers — Kyle (5 keepers)
+| Round | Player |
+|-------|--------|
+| 11 | Chris Paddack |
+| 15 | Chris Bassitt |
+| 21 | Sean Manaea |
+| 22 | Kevin Gausman |
+| 23 | Cristian Javier |
 
-### The Disabled List *(left after 2024)* (5 keepers)
-| Round | Pick | Player |
-|-------|------|--------|
-| 2 | 32 | Trevor Bauer |
-| 4 | 80 | Corey Seager |
-| 20 | 320 | Michael Soroka |
-| 21 | 336 | Jameson Taillon |
-| 22 | 352 | Lucas Giolito |
+### Machine Needs Sugar — Yoken (5 keepers)
+| Round | Player |
+|-------|--------|
+| 4 | Trevor Story |
+| 19 | Kyle Tucker |
+| 21 | Rafael Devers |
+| 22 | Lance Lynn |
+| 23 | Mike Yastrzemski |
 
-### The Phavorites (2 keepers)
-| Round | Pick | Player |
-|-------|------|--------|
-| 1 | 3 | J.T. Realmuto |
-| 18 | 275 | Hyun Jin Ryu |
+### Panda Xpress — BG (4 keepers)
+| Round | Player |
+|-------|--------|
+| 1 | Xander Bogaerts |
+| 2 | J.D. Martinez |
+| 5 | Alex Bregman |
+| 19 | Walker Buehler |
 
-### Trevor Bauer Is A Scumbag → *Never Break The Chaim* (5 keepers)
-| Round | Pick | Player |
-|-------|------|--------|
-| 2 | 34 | Max Scherzer |
-| 3 | 45 | Tim Anderson |
-| 5 | 77 | Michael Conforto |
-| 8 | 157 | Paul Goldschmidt |
-| 23 | 365 | Ke'Bryan Hayes |
+### The Disabled List — Eric (5 keepers)
+| Round | Player |
+|-------|--------|
+| 3 | Trevor Bauer |
+| 5 | Corey Seager |
+| 21 | Jameson Taillon |
+| 22 | Lucas Giolito |
+| 23 | Michael Soroka |
 
-### WaRshington Natinals (5 keepers)
-| Round | Pick | Player |
-|-------|------|--------|
-| 12 | 139 | Gleyber Torres |
-| 20 | 315 | Gerrit Cole |
-| 21 | 331 | Ketel Marte |
-| 22 | 347 | Yordan Alvarez |
-| 23 | 363 | Frankie Montas |
+### The Phavorites — Aaron (3 keepers)
+| Round | Player |
+|-------|--------|
+| 1 | J.T. Realmuto |
+| 11 | Dylan Bundy |
+| 18 | Hyun Jin Ryu |
 
-### Ya Gotta Believe (5 keepers)
-| Round | Pick | Player |
-|-------|------|--------|
-| 8 | 125 | Josh Hader |
-| 12 | 178 | Vladimir Guerrero Jr. |
-| 15 | 226 | Bryce Harper |
-| 17 | 258 | Jarred Kelenic |
-| 21 | 322 | Zach Plesac |
+### WaRshington Natinals — Ike/Wipps (5 keepers)
+| Round | Player |
+|-------|--------|
+| 10 | Gleyber Torres |
+| 20 | Gerrit Cole |
+| 21 | Ketel Marte |
+| 22 | Yordan Alvarez |
+| 23 | Frankie Montas |
+
+### Ya Gotta Believe — Bondi (5 keepers)
+| Round | Player |
+|-------|--------|
+| 8 | Josh Hader |
+| 12 | Vladimir Guerrero Jr. |
+| 15 | Bryce Harper |
+| 17 | Jarred Kelenic |
+| 21 | Zach Plesac |
 
 ---
 
 ## 2022 Season Keepers
 
-*Keeper tags were not embedded in the 2022 draft HTML. Only Never Break The Chaim shows round gaps (missing Rounds 2–3), indicating 2 keepers whose identities cannot be confirmed from the draft data alone. Most teams appear to have had no keepers in 2022.*
+*Source: Google Sheets keeper document. Owner first names included where available.*
+
+### #BlackCommissioners — Joel (3 keepers)
+| Round | Player |
+|-------|--------|
+| 14 | Jacob DeGrom |
+| 16 | Ronald Acuña Jr. |
+| 21 | Fernando Tatis Jr. |
+
+### Cuck Showalters — Drew (5 keepers)
+| Round | Player |
+|-------|--------|
+| 12 | Robbie Ray |
+| 16 | Pete Alonso |
+| 21 | Francisco Lindor |
+| 22 | Juan Soto |
+| 23 | Cedric Mullins |
+
+### Curtis Granderslams — Karly (5 keepers)
+| Round | Player |
+|-------|--------|
+| 1 | Freddie Freeman |
+| 4 | Will Smith |
+| 17 | Matt Chapman |
+| 18 | Manny Machado |
+| 22 | Max Fried |
+
+### D.C. Funbaggers — Corey (5 keepers)
+| Round | Player |
+|-------|--------|
+| 11 | Freddy Peralta |
+| 20 | Mookie Betts |
+| 21 | Javier Báez |
+| 22 | Corbin Burnes |
+| 23 | Riley Greene |
+
+### DC Race Relations — Russ (5 keepers)
+| Round | Player |
+|-------|--------|
+| 1 | José Ramírez |
+| 18 | Bo Bichette |
+| 19 | Mike Trout |
+| 20 | Kris Bryant |
+| 21 | Whit Merrifield |
+
+### Human Highlight Reel — Dom (5 keepers)
+| Round | Player |
+|-------|--------|
+| 3 | Jose Altuve |
+| 8 | Zac Gallen |
+| 18 | Jack Flaherty |
+| 19 | Trea Turner |
+| 22 | Luis Robert Jr. |
+
+### I Would Die 4 YU — Steve (5 keepers)
+| Round | Player |
+|-------|--------|
+| 11 | CJ Abrams |
+| 15 | Tarik Skubal |
+| 18 | Julio Rodríguez |
+| 22 | Wander Franco |
+| 23 | Jonathan India |
+
+### Late Round Fliers — Adam (5 keepers)
+| Round | Player |
+|-------|--------|
+| 4 | Teoscar Hernández |
+| 14 | Adley Rutschman |
+| 21 | Aaron Judge |
+| 22 | Logan Webb |
+| 23 | Alek Manoah |
+
+### LowBallers — Kyle (5 keepers)
+| Round | Player |
+|-------|--------|
+| 15 | Chris Bassitt |
+| 20 | Sean Manaea |
+| 21 | Kevin Gausman |
+| 22 | Austin Gomber |
+| 23 | Alex Wood |
+
+### Machine Needs Sugar — Yoken (5 keepers)
+| Round | Player |
+|-------|--------|
+| 19 | Kyle Tucker |
+| 20 | Rafael Devers |
+| 21 | Lance Lynn |
+| 22 | Jazz Chisholm Jr. |
+| 23 | Ranger Suárez |
+
+### Never Break The Chaim — Jason (5 keepers)
+| Round | Player |
+|-------|--------|
+| 20 | Shane Bieber |
+| 21 | Ke'Bryan Hayes |
+| 22 | Gabriel Moreno |
+| 23 | Shane Baz |
+| (unknown) | Bryan Reynolds |
+
+### Panda Xpress — Brendan (5 keepers)
+| Round | Player |
+|-------|--------|
+| 1 | Xander Bogaerts |
+| 2 | Nick Castellanos |
+| 7 | Sandy Alcantara |
+| 17 | Trevor Rogers |
+| 19 | Walker Buehler |
+
+### The Disabled List — Eric (5 keepers)
+| Round | Player |
+|-------|--------|
+| 12 | Austin Riley |
+| 20 | Cal Quantrill |
+| 21 | Lucas Giolito |
+| 22 | Jorge Polanco |
+| 23 | Luis García |
+
+### The Phavorites — Aaron (5 keepers)
+| Round | Player |
+|-------|--------|
+| 1 | J.T. Realmuto |
+| 3 | Liam Hendriks |
+| 4 | Lourdes Gurriel Jr. |
+| 9 | Tyler Mahle |
+| 23 | Tyler O'Neill |
+
+### WaRshington Natinals — Ike/Wipps (5 keepers)
+| Round | Player |
+|-------|--------|
+| 16 | Emmanuel Clase |
+| 20 | Gerrit Cole |
+| 21 | Ketel Marte |
+| 22 | Yordan Alvarez |
+| 23 | Frankie Montas |
+
+### Ya Gotta Believe — Bondi (5 keepers)
+| Round | Player |
+|-------|--------|
+| 8 | Josh Hader |
+| 9 | Bobby Witt Jr. |
+| 12 | Vladimir Guerrero Jr. |
+| 15 | Bryce Harper |
+| 19 | Dylan Cease |
+
+### 2022 Draft Pick Trades
+Several draft picks were traded before the 2022 draft:
+
+| Pick (Round) | Traded To |
+|-------------|-----------|
+| 2 | D.C. Funbaggers |
+| 2 | Never Break The Chaim |
+| 3 | I Would Die 4 YU |
+| 3 | Never Break The Chaim |
+| 4 | D.C. Funbaggers |
+| 4 | Never Break The Chaim |
+| 5 | DC Race Relations |
+| 6 | DC Race Relations |
+| 7 | Never Break The Chaim |
+| 9 | I Would Die 4 YU |
+| 9 | Ya Gotta Believe |
+| 10 | DC Race Relations |
+| 11 | Never Break The Chaim |
+| 12 | Cuck Showalters |
+| 12 | LowBallers |
+| 14 | I Would Die 4 YU |
+| 15 | DC Race Relations |
+| 16 | The Disabled List |
+| 16 | Ya Gotta Believe |
+| 17 | Ya Gotta Believe |
+| 17 | I Would Die 4 YU |
+| 17 | #BlackCommissioners |
+| 18 | #BlackCommissioners |
+| 19 | #BlackCommissioners |
+| 23 | Cuck Showalters |
+| 23 | The Disabled List |
+| 23 | Never Break The Chaim |
 
 ---
 
