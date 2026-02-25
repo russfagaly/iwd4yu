@@ -148,13 +148,146 @@ No keepers in 2020.
 
 ## 2021 Season Keepers
 
-*Draft data unavailable (HTML file did not fully load).*
+### #BlackCommissioners (4 keepers)
+| Round | Pick | Player |
+|-------|------|--------|
+| 14 | 220 | Jacob deGrom |
+| 16 | 252 | Ronald Acuña Jr. |
+| 20 | 316 | Jeff McNeil |
+| 21 | 332 | Fernando Tatis Jr. |
+
+### Cuck Showalters (5 keepers)
+| Round | Pick | Player |
+|-------|------|--------|
+| 16 | 247 | Pete Alonso |
+| 17 | 263 | Alec Bohm |
+| 21 | 327 | Francisco Lindor |
+| 22 | 343 | Juan Soto |
+| 23 | 359 | Shane Bieber |
+
+### Curtis Granderslams (5 keepers)
+| Round | Pick | Player |
+|-------|------|--------|
+| 1 | 9 | Freddie Freeman |
+| 17 | 265 | Matt Chapman |
+| 18 | 281 | Manny Machado |
+| 22 | 345 | Max Fried |
+| 23 | 361 | Jesús Luzardo |
+
+### D.C. Funbaggers (5 keepers)
+| Round | Pick | Player |
+|-------|------|--------|
+| 16 | 250 | Wil Myers |
+| 20 | 314 | Nolan Arenado |
+| 21 | 330 | Mookie Betts |
+| 22 | 346 | Javier Báez |
+| 23 | 362 | Corbin Burnes |
+
+### DC Race Relations *(left after 2024)* (5 keepers)
+| Round | Pick | Player |
+|-------|------|--------|
+| 18 | 277 | Bo Bichette |
+| 19 | 293 | Mike Trout |
+| 20 | 309 | Kris Bryant |
+| 21 | 325 | Whit Merrifield |
+| 22 | 341 | Wander Franco |
+
+### Human Highlight Reel *(left after 2025)* (5 keepers)
+| Round | Pick | Player |
+|-------|------|--------|
+| 18 | 286 | Jack Flaherty |
+| 19 | 302 | Trea Turner |
+| 21 | 334 | Cody Bellinger |
+| 22 | 350 | Luis Robert Jr. |
+| 23 | 366 | Trent Grisham |
+
+### I Would Die 4 YU (3 keepers)
+| Round | Pick | Player |
+|-------|------|--------|
+| 18 | 273 | Paul DeJong |
+| 21 | 321 | Pablo López |
+| 22 | 337 | Ian Happ |
+
+### Late Round Fliers (3 keepers)
+| Round | Pick | Player |
+|-------|------|--------|
+| 6 | 88 | Aaron Nola |
+| 9 | 136 | Blake Snell |
+| 22 | 344 | Aaron Judge |
+
+### LowBallers (5 keepers)
+| Round | Pick | Player |
+|-------|------|--------|
+| 11 | 166 | Chris Paddack |
+| 15 | 230 | Chris Bassitt |
+| 21 | 326 | Sean Manaea |
+| 22 | 342 | Kevin Gausman |
+| 23 | 358 | Cristian Javier |
+
+### Machine Needs Sugar (5 keepers)
+| Round | Pick | Player |
+|-------|------|--------|
+| 4 | 63 | Trevor Story |
+| 19 | 303 | Kyle Tucker |
+| 21 | 335 | Rafael Devers |
+| 22 | 351 | Lance Lynn |
+| 23 | 367 | Mike Yastrzemski |
+
+### Panda Xpress *(left after 2025)* (4 keepers)
+| Round | Pick | Player |
+|-------|------|--------|
+| 1 | 4 | Xander Bogaerts |
+| 2 | 20 | J.D. Martinez |
+| 4 | 68 | Alex Bregman |
+| 19 | 292 | Walker Buehler |
+
+### The Disabled List *(left after 2024)* (5 keepers)
+| Round | Pick | Player |
+|-------|------|--------|
+| 2 | 32 | Trevor Bauer |
+| 4 | 80 | Corey Seager |
+| 20 | 320 | Michael Soroka |
+| 21 | 336 | Jameson Taillon |
+| 22 | 352 | Lucas Giolito |
+
+### The Phavorites (2 keepers)
+| Round | Pick | Player |
+|-------|------|--------|
+| 1 | 3 | J.T. Realmuto |
+| 18 | 275 | Hyun Jin Ryu |
+
+### Trevor Bauer Is A Scumbag → *Never Break The Chaim* (5 keepers)
+| Round | Pick | Player |
+|-------|------|--------|
+| 2 | 34 | Max Scherzer |
+| 3 | 45 | Tim Anderson |
+| 5 | 77 | Michael Conforto |
+| 8 | 157 | Paul Goldschmidt |
+| 23 | 365 | Ke'Bryan Hayes |
+
+### WaRshington Natinals (5 keepers)
+| Round | Pick | Player |
+|-------|------|--------|
+| 12 | 139 | Gleyber Torres |
+| 20 | 315 | Gerrit Cole |
+| 21 | 331 | Ketel Marte |
+| 22 | 347 | Yordan Alvarez |
+| 23 | 363 | Frankie Montas |
+
+### Ya Gotta Believe (5 keepers)
+| Round | Pick | Player |
+|-------|------|--------|
+| 8 | 125 | Josh Hader |
+| 12 | 178 | Vladimir Guerrero Jr. |
+| 15 | 226 | Bryce Harper |
+| 17 | 258 | Jarred Kelenic |
+| 21 | 322 | Zach Plesac |
 
 ---
 
 ## 2022 Season Keepers
 
-*No keeper tags found in the 2022 draft data. This may indicate keepers were not marked in the saved HTML, or the league did not use keepers that year.*
+*Keeper tags were not embedded in the 2022 draft HTML. Only Never Break The Chaim shows round gaps (missing Rounds 2–3), indicating 2 keepers whose identities cannot be confirmed from the draft data alone. Most teams appear to have had no keepers in 2022.*
 
 ---
 
@@ -586,37 +719,59 @@ Players kept by the same team across multiple seasons:
 
 | Player | Team | Years Kept | Round Progression |
 |--------|------|------------|-------------------|
-| Ronald Acuña Jr. | #BlackCommissioners → WaRshington Natinals | 2020, 2023, 2024, 2025 | Rd 16 → 16 → 16 → 16 (traded to WSH in 2025) |
-| Fernando Tatis Jr. | #BlackCommissioners → I Would Die 4 YU | 2020, 2023 → 2024, 2025 | Rd 21 → 21 → 20 → 19 |
+| Ronald Acuña Jr. | #BlackCommissioners → WaRshington Natinals | 2020, 2021, 2023, 2024, 2025 | Rd 16 → 16 → 16 → 16 → 16 (traded to WSH in 2025) |
+| Fernando Tatis Jr. | #BlackCommissioners → I Would Die 4 YU | 2020, 2021, 2023 → 2024, 2025 | Rd 21 → 21 → 21 → 20 → 19 |
+| Jacob deGrom | #BlackCommissioners | 2020, 2021, 2023 | Rd 14 → 14 → 15 |
 | Bobby Witt Jr. | I Would Die 4 YU | 2023, 2024, 2025 | Rd 10 → 7 → 9 |
 | Julio Rodríguez | I Would Die 4 YU | 2023, 2024, 2025 | Rd 17 → 14 → 14 |
-| Juan Soto | I Would Die 4 YU | 2023, 2024, 2025 | Rd 20 → 21 → 20 |
+| Juan Soto | Cuck Showalters → I Would Die 4 YU | 2020, 2021 → 2023, 2024, 2025 | Rd 22 → 22 → 20 → 21 → 20 |
 | Elly De La Cruz | I Would Die 4 YU | 2024, 2025 | Rd 18 → 17 |
-| J.T. Realmuto | The Phavorites | 2020, 2023, 2024 | Rd 1 → 1 → 1 |
+| J.T. Realmuto | The Phavorites | 2020, 2021, 2023, 2024 | Rd 1 → 1 → 1 → 1 |
 | Raisel Iglesias | The Phavorites | 2020, 2023, 2024, 2025 | Rd 2 → 2 → 2 → 2 |
 | Christian Walker | The Phavorites | 2023, 2024, 2025 | Rd 22 → 22 → 22 |
-| Pete Alonso | Cuck Showalters | 2020, 2023, 2024, 2025 | Rd 16 → 16 → 14 → 15 |
-| Francisco Lindor | Cuck Showalters | 2020, 2023, 2024, 2025 | Rd 21 → 20 → 19 → 20 |
+| Pete Alonso | Cuck Showalters | 2020, 2021, 2023, 2024, 2025 | Rd 16 → 16 → 16 → 14 → 15 |
+| Francisco Lindor | Cuck Showalters | 2020, 2021, 2023, 2024, 2025 | Rd 21 → 21 → 20 → 19 → 20 |
+| Shane Bieber | Cuck Showalters | 2020, 2021 | Rd 23 → 23 |
 | Gunnar Henderson | Cuck Showalters | 2023, 2024, 2025 | Rd 23 → 23 → 22 |
 | Corbin Carroll | Cuck Showalters | 2023, 2024, 2025 | Rd 22 → 22 → 21 |
-| Mookie Betts | D.C. Funbaggers | 2020, 2023, 2024, 2025 | Rd 21 → 20 → 20 → 20 |
+| Mookie Betts | D.C. Funbaggers | 2020, 2021, 2023, 2024, 2025 | Rd 21 → 21 → 20 → 20 → 20 |
+| Nolan Arenado | D.C. Funbaggers | 2020, 2021 | Rd 20 → 20 |
+| Corbin Burnes | D.C. Funbaggers | 2021, 2023 | Rd 23 → 21 |
 | Riley Greene | D.C. Funbaggers | 2023, 2024, 2025 | Rd 22 → 21 → 21 |
 | Tarik Skubal | D.C. Funbaggers | 2024, 2025 | Rd 16 → 17 |
-| Aaron Judge | Late Round Fliers | 2020, 2023, 2024, 2025 | Rd 22 → 21 → 21 → 21 |
-| Manny Machado | Curtis Granderslams | 2020, 2023, 2024, 2025 | Rd 17 → 18 → 18 → 19 |
+| Aaron Judge | Late Round Fliers | 2020, 2021, 2023, 2024, 2025 | Rd 22 → 22 → 21 → 21 → 21 |
+| Aaron Nola | Late Round Fliers | 2020, 2021 | Rd 6 → 6 |
+| Blake Snell | Late Round Fliers | 2020, 2021 | Rd 9 → 9 |
+| Freddie Freeman | Curtis Granderslams | 2021, 2023 | Rd 1 → 1 |
+| Manny Machado | Curtis Granderslams | 2020, 2021, 2023, 2024, 2025 | Rd 17 → 18 → 18 → 18 → 19 |
+| Max Fried | Curtis Granderslams | 2020, 2021, 2023 | Rd 21 → 22 → 22 |
 | Logan Gilbert | Curtis Granderslams | 2024, 2025 | Rd 2 → 3 |
 | Tyler Glasnow | Curtis Granderslams | 2024, 2025 | Rd 7 → 7 |
-| Rafael Devers | Machine Needs Sugar | 2020, 2023, 2024, 2025 | Rd 21 → 19 → 19 → 19 |
-| Kyle Tucker | Machine Needs Sugar | 2020, 2023, 2024, 2025 | Rd 19 → 20 → 20 → 20 |
-| Vladimir Guerrero Jr. | Ya Gotta Believe | 2020, 2023, 2024, 2025 | Rd 11 → 15 → 12 → 12 |
-| Bryce Harper | Ya Gotta Believe | 2020, 2023, 2024, 2025 | Rd 14 → 18 → 14 → 15 |
+| Rafael Devers | Machine Needs Sugar | 2020, 2021, 2023, 2024, 2025 | Rd 21 → 21 → 19 → 19 → 19 |
+| Kyle Tucker | Machine Needs Sugar | 2020, 2021, 2023, 2024, 2025 | Rd 19 → 19 → 20 → 20 → 20 |
+| Trevor Story | Machine Needs Sugar | 2020, 2021 | Rd 4 → 4 |
+| Bo Bichette | DC Race Relations | 2020, 2021, 2023, 2024 | Rd 20 → 18 → 14 → (left) |
+| Mike Trout | DC Race Relations → Never Break The Chaim | 2020, 2021, 2023 → 2024, 2025 | Rd 21 → 19 → 16 → 20 → 18 |
+| Wander Franco | DC Race Relations | 2020, 2021 | Rd 23 → 22 |
+| Vladimir Guerrero Jr. | Ya Gotta Believe | 2020, 2021, 2023, 2024, 2025 | Rd 11 → 12 → 15 → 12 → 12 |
+| Bryce Harper | Ya Gotta Believe | 2020, 2021, 2023, 2024, 2025 | Rd 14 → 15 → 18 → 14 → 15 |
+| Josh Hader | Ya Gotta Believe | 2020, 2021, 2023 | Rd 8 → 8 → 11 |
 | Dylan Cease | Ya Gotta Believe | 2023, 2024, 2025 | Rd 21 → 19 → 19 |
 | Shohei Ohtani (Batter) | Never Break The Chaim | 2023, 2024 | Rd 1 → 1 |
-| Yordan Alvarez | WaRshington Natinals | 2023, 2024, 2025 | Rd 21 → 21 → 20 |
+| Walker Buehler | Panda Xpress | 2020, 2021, 2023, 2024, 2025 | Rd 19 → 19 → 21 → 18 → 16 |
+| Trea Turner | Human Highlight Reel | 2020, 2021, 2023, 2024, 2025 | Rd 19 → 19 → 19 → 19 → 19 |
+| Luis Robert Jr. | Human Highlight Reel | 2020, 2021, 2023, 2024 | Rd 23 → 22 → 21 → 21 |
+| Cody Bellinger | Human Highlight Reel | 2020, 2021 | Rd 22 → 21 |
+| Yordan Alvarez | WaRshington Natinals | 2021, 2023, 2024, 2025 | Rd 22 → 21 → 21 → 20 |
+| Gerrit Cole | WaRshington Natinals | 2020, 2021, 2023 | Rd 20 → 20 → 19 |
+| Ketel Marte | WaRshington Natinals | 2020, 2021 | Rd 22 → 21 |
 | George Kirby | WaRshington Natinals | 2023, 2024, 2025 | Rd 23 → 22 → 21 |
-| Kevin Gausman | LowBallers | 2023, 2024, 2025 | Rd 19 → 19 → 19 |
+| Kevin Gausman | LowBallers | 2021, 2023, 2024, 2025 | Rd 22 → 19 → 19 → 19 |
+| Sean Manaea | LowBallers | 2020, 2021 | Rd 22 → 21 |
 | Anthony Santander | LowBallers | 2023, 2024, 2025 | Rd 22 → 22 → 20 |
+| Lucas Giolito | The Disabled List | 2020, 2021, 2023 | Rd 22 → 22 → 21 |
+| Trevor Bauer | The Disabled List | 2021 | Rd 2 |
 
 ---
 
-*Data extracted from Yahoo Fantasy Baseball draft results HTML files. 2021 and 2022 keeper data unavailable.*
+*Data extracted from Yahoo Fantasy Baseball draft results HTML files. 2022 keeper tags were not embedded in the HTML; only round gaps visible.*

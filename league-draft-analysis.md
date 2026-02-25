@@ -30,8 +30,8 @@
 **Teams that left:** DC Race Relations & The Disabled List (after 2024), Human Highlight Reel & Panda Xpress (after 2025).
 
 **Owner name changes:**
-- You: Good Burrito Please (2020–21) → I Would Die 4 YU (2022+)
-- Chaim owner: Bauer Units (2020) → Trevor Bauer is a Scumbag (2021) → Never Break The Chaim (2022+)
+- You: Good Burrito Please (2020) → I Would Die 4 YU (2021+)
+- Chaim owner: Bauer Units (2020) → Trevor Bauer Is A Scumbag (2021) → Never Break The Chaim (2022+)
 
 **Key takeaway:** The league is shrinking (16 → 14 → 12). With fewer teams, the talent pool is deeper — mid-round players in 2025 are early-round quality in a 12-team format. Adjust ADP expectations accordingly.
 
@@ -384,4 +384,4 @@ With 4 fewer teams than last year, there are ~92 fewer picks (4 teams × 23 roun
 
 ---
 
-*Analysis based on 1,481 draft picks across 5 seasons (2020, 2022–2025). 2021 draft data unavailable. Player classification (H/SP/RP) based on primary position at time of draft.*
+*Analysis based on 1,847 draft picks across 6 seasons (2020–2025). Player classification (H/SP/RP) based on primary position at time of draft.*

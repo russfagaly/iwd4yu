@@ -3,7 +3,7 @@
 ## My Team
 - **Team Name:** I Would Die 4 YU
 - **Draft Position:** TBD
-- **2025 Finish:** TBD
+- **2025 Finish:** 4th (lost semifinals to WaRshington Natinals)
 
 ## My Keepers (up to 5)
 | Player | Position | Round Cost |
