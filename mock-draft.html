@@ -1177,8 +1177,10 @@ function cycleSort(field) {
 }
 
 function buildBoardGrid() {
+  const order = state.draftOrder;
   let html = '<table><thead><tr><th class="round-num">Rd</th>';
-  for (let t = 0; t < state.numTeams; t++) {
+  for (let pos = 0; pos < state.numTeams; pos++) {
+    const t = order[pos];
     const cls = t === state.userTeamIdx ? "user-team" : "";
     const name = TEAM_NAMES[t];
     html += `<th class="${cls}" title="${name}">${name.length > 12 ? name.substring(0,11)+"…" : name}</th>`;
@@ -1186,7 +1188,8 @@ function buildBoardGrid() {
   html += '</tr></thead><tbody>';
   for (let r = 0; r < state.numRounds; r++) {
     html += `<tr><td class="round-num">${r+1}</td>`;
-    for (let t = 0; t < state.numTeams; t++) {
+    for (let pos = 0; pos < state.numTeams; pos++) {
+      const t = order[pos];
       const cls = t === state.userTeamIdx ? "user-pick" : "";
       html += `<td class="${cls}" id="cell-${r}-${t}"></td>`;
     }
@@ -1239,9 +1242,11 @@ function switchTab(tab) {
 
 function renderRosterPanel() {
   const panel = document.getElementById("roster-panel");
+  const order = state.draftOrder;
   let html = '<div class="roster-select-row"><select id="roster-team-select" onchange="renderRosterPanel()">';
-  for (let t = 0; t < state.numTeams; t++) {
-    html += `<option value="${t}" ${t === state.userTeamIdx ? "selected" : ""}>${TEAM_NAMES[t]}</option>`;
+  for (let pos = 0; pos < state.numTeams; pos++) {
+    const t = order[pos];
+    html += `<option value="${t}" ${t === state.userTeamIdx ? "selected" : ""}>${pos+1}. ${TEAM_NAMES[t]}</option>`;
   }
   html += '</select></div>';
   const teamIdx = parseInt(document.getElementById("roster-team-select")?.value ?? state.userTeamIdx);
@@ -1422,10 +1427,12 @@ function endDraft() {
   document.getElementById("results-screen").style.display = "block";
 
   let html = "";
-  for (let t = 0; t < state.numTeams; t++) {
+  const order = state.draftOrder;
+  for (let pos = 0; pos < state.numTeams; pos++) {
+    const t = order[pos];
     const isUser = t === state.userTeamIdx;
     html += `<div class="results-team ${isUser ? "user-team" : ""}">
-      <h3>${isUser ? "&#11088; " : ""}${TEAM_NAMES[t]}</h3>
+      <h3>${isUser ? "&#11088; " : ""}${pos+1}. ${TEAM_NAMES[t]}</h3>
       <table><thead><tr><th>Rd</th><th>Player</th><th>Pos</th><th>ADP</th></tr></thead><tbody>`;
     const teamPicks = state.picks.filter(p => p.teamIdx === t).sort((a,b) => a.round - b.round);
     teamPicks.forEach(pick => {
@@ -1442,9 +1449,11 @@ function endDraft() {
 function exportResults() {
   let text = "INSIDE BASEBALL 2026 MOCK DRAFT RESULTS\n";
   text += "=" .repeat(50) + "\n\n";
-  for (let t = 0; t < state.numTeams; t++) {
+  const order = state.draftOrder;
+  for (let pos = 0; pos < state.numTeams; pos++) {
+    const t = order[pos];
     const isUser = t === state.userTeamIdx;
-    text += `${isUser ? ">>> " : ""}${TEAM_NAMES[t]}${isUser ? " <<<" : ""}\n`;
+    text += `${isUser ? ">>> " : ""}${pos+1}. ${TEAM_NAMES[t]}${isUser ? " <<<" : ""}\n`;
     text += "-".repeat(40) + "\n";
     const teamPicks = state.picks.filter(p => p.teamIdx === t).sort((a,b) => a.round - b.round);
     teamPicks.forEach(pick => {
