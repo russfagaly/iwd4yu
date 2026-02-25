@@ -224,6 +224,7 @@ input, select { font-family: inherit; }
       <option value="8">9th Pick</option><option value="9">10th Pick</option>
       <option value="10">11th Pick</option><option value="11">12th Pick</option>
     </select>
+    <div style="margin-top:6px;font-size:0.8em;color:var(--text-dim)">Keepers auto-update when you change draft position</div>
   </div>
 
   <div class="form-group">
@@ -253,9 +254,10 @@ input, select { font-family: inherit; }
   </div>
 
   <div class="form-group">
-    <label>Your Keepers (optional)</label>
+    <label>Your Keepers <span style="font-weight:normal;text-transform:none;color:var(--text-dim)">(pre-loaded from 2025 — editable)</span></label>
     <div id="keepers-list"></div>
     <button id="add-keeper-btn" onclick="addKeeperRow()">+ Add Keeper</button>
+    <div style="margin-top:8px;font-size:0.8em;color:var(--text-dim)">All 12 teams' 2025 keepers are applied automatically. Edit yours above if needed.</div>
   </div>
 
   <button id="start-draft-btn" onclick="startDraft()">Start Mock Draft</button>
@@ -635,6 +637,16 @@ const PLAYERS = [
   {id:336,name:"Will Vest",pos:["RP"],team:"DET",rank:39,adp:449,value:1,type:"RP"},
   {id:337,name:"Grant Taylor",pos:["RP"],team:"CHW",rank:51,adp:473,value:3,type:"RP"},
   {id:338,name:"Camilo Doval",pos:["RP"],team:"NYY",rank:47,adp:400,value:-2,type:"RP"},
+  // KEEPER-ONLY PLAYERS (not in FanGraphs top rankings but needed for 2025 keepers)
+  {id:401,name:"Walker Jenkins",pos:["OF"],team:"MIN",rank:200,adp:300,value:1,type:"H"},
+  {id:402,name:"Christian Encarnacion-Strand",pos:["1B","3B"],team:"CIN",rank:200,adp:350,value:0,type:"H"},
+  {id:403,name:"Jasson Dominguez",pos:["OF"],team:"NYY",rank:200,adp:300,value:1,type:"H"},
+  {id:404,name:"Luis Gil",pos:["SP"],team:"NYY",rank:61,adp:220,value:2,type:"SP"},
+  {id:405,name:"Anthony Santander",pos:["OF"],team:"TOR",rank:200,adp:250,value:2,type:"H"},
+  {id:406,name:"Sean Burke",pos:["SP"],team:"CHW",rank:62,adp:250,value:1,type:"SP"},
+  {id:407,name:"Shane McClanahan",pos:["SP"],team:"TBR",rank:63,adp:200,value:3,type:"SP"},
+  {id:408,name:"Jackson Jobe",pos:["SP"],team:"DET",rank:64,adp:280,value:1,type:"SP"},
+  {id:409,name:"Orion Kerkering",pos:["RP"],team:"PHI",rank:32,adp:250,value:2,type:"RP"},
 ];
 
 // Remove the dummy skip entry
@@ -650,6 +662,94 @@ const TEAM_NAMES = [
 ];
 
 // ============================================================
+// 2025 KEEPERS (rounds are 0-indexed: Rd 1 = 0, Rd 23 = 22)
+// ============================================================
+const KEEPERS_2025 = {
+  0: [ // I Would Die 4 YU
+    {name:"Bobby Witt Jr.", round:8},
+    {name:"Julio Rodriguez", round:13},
+    {name:"Elly De La Cruz", round:16},
+    {name:"Fernando Tatis Jr.", round:18},
+    {name:"Juan Soto", round:19},
+  ],
+  1: [ // #BlackCommissioners
+    {name:"Oneil Cruz", round:10},
+    {name:"Shane Baz", round:14},
+    {name:"Nolan Schanuel", round:21},
+    {name:"Evan Carter", round:22},
+  ],
+  2: [ // Cuck Showalters
+    {name:"Pete Alonso", round:14},
+    {name:"Francisco Lindor", round:19},
+    {name:"Corbin Carroll", round:20},
+    {name:"Gunnar Henderson", round:21},
+    {name:"Walker Jenkins", round:22},
+  ],
+  3: [ // Curtis Granderslams
+    {name:"Logan Gilbert", round:2},
+    {name:"Tyler Glasnow", round:6},
+    {name:"Manny Machado", round:18},
+    {name:"Shea Langeliers", round:22},
+  ],
+  4: [ // D.C. Funbaggers
+    {name:"Tarik Skubal", round:16},
+    {name:"Mookie Betts", round:19},
+    {name:"Riley Greene", round:20},
+    {name:"Royce Lewis", round:21},
+    {name:"Christian Encarnacion-Strand", round:22},
+  ],
+  5: [ // Late Round Fliers
+    {name:"Jackson Chourio", round:5},
+    {name:"Jasson Dominguez", round:17},
+    {name:"Aaron Judge", round:20},
+    {name:"Brent Rooker", round:21},
+    {name:"Luis Gil", round:22},
+  ],
+  6: [ // LowBallers
+    {name:"Kevin Gausman", round:18},
+    {name:"Anthony Santander", round:19},
+    {name:"Tanner Houck", round:20},
+    {name:"Matt Chapman", round:21},
+    {name:"Sean Burke", round:22},
+  ],
+  7: [ // Machine Needs Sugar
+    {name:"Jarren Duran", round:9},
+    {name:"Rafael Devers", round:18},
+    {name:"Kyle Tucker", round:19},
+    {name:"Hunter Brown", round:21},
+    {name:"Garrett Crochet", round:22},
+  ],
+  8: [ // Never Break The Chaim
+    {name:"Paul Skenes", round:12},
+    {name:"James Wood", round:15},
+    {name:"Mike Trout", round:17},
+    {name:"Shane McClanahan", round:19},
+    {name:"Jackson Jobe", round:22},
+  ],
+  9: [ // The Phavorites
+    {name:"Raisel Iglesias", round:1},
+    {name:"Marcell Ozuna", round:4},
+    {name:"Orion Kerkering", round:11},
+    {name:"Christian Walker", round:21},
+    {name:"Austin Wells", round:22},
+  ],
+  10: [ // WaRshington Natinals
+    {name:"Ronald Acuna Jr.", round:15},
+    {name:"Yordan Alvarez", round:19},
+    {name:"George Kirby", round:20},
+    {name:"Lawrence Butler", round:21},
+    {name:"Roman Anthony", round:22},
+  ],
+  11: [ // Ya Gotta Believe
+    {name:"Zack Wheeler", round:0},
+    {name:"Vladimir Guerrero Jr.", round:11},
+    {name:"Bryce Harper", round:14},
+    {name:"Dylan Cease", round:18},
+    {name:"Junior Caminero", round:22},
+  ],
+};
+
+// ============================================================
 // DRAFT STATE
 // ============================================================
 let state = {
@@ -659,7 +759,8 @@ let state = {
   aiSpeed: 800,
   timerEnabled: false,
   timerSeconds: 75,
-  keepers: [], // [{playerName, round}]
+  keepers: [], // [{playerId, round}] — user's keepers from form
+  keeperMap: new Map(), // "${round}_${teamIdx}" -> {playerId, name, pos}
   // runtime
   drafted: new Set(), // player ids
   picks: [], // {round, pick, teamIdx, playerId, playerName, pos}
@@ -874,14 +975,7 @@ function makePick(playerId) {
     return;
   }
 
-  const next = getPickOrder(state.currentPick);
-  highlightCurrentPick(next.round, next.teamIdx);
-
-  if (next.teamIdx === state.userTeamIdx) {
-    onUserTurn();
-  } else {
-    onAiTurn();
-  }
+  advancePick();
 }
 
 function onUserTurn() {
@@ -1093,10 +1187,12 @@ function buildBoardGrid() {
   document.getElementById("board-grid").innerHTML = html;
 }
 
-function updateBoardCell(round, teamIdx, player) {
+function updateBoardCell(round, teamIdx, player, isKeeper) {
   const cell = document.getElementById(`cell-${round}-${teamIdx}`);
   if (cell) {
-    cell.innerHTML = `<div class="pick-name">${player.name}</div><div class="pick-pos">${player.pos.join("/")}</div>`;
+    const keeperBadge = isKeeper ? '<span style="color:var(--gold);font-size:0.7em"> K</span>' : '';
+    cell.innerHTML = `<div class="pick-name">${player.name}${keeperBadge}</div><div class="pick-pos">${player.pos.join("/")}</div>`;
+    if (isKeeper) cell.style.borderLeft = "3px solid var(--gold)";
   }
 }
 
@@ -1219,10 +1315,12 @@ function startDraft() {
   state.currentPick = 0;
   state.drafted = new Set();
   state.picks = [];
+  state.keepers = [];
+  state.keeperMap = new Map();
   state.teamRosters = Array.from({length: state.numTeams}, () => []);
   state.draftActive = true;
 
-  // Process keepers
+  // Process user's keepers from the form
   const keeperRows = document.querySelectorAll(".keeper-row");
   keeperRows.forEach(row => {
     const name = row.querySelector(".keeper-name").value.trim();
@@ -1231,14 +1329,25 @@ function startDraft() {
     const player = playerDB.find(p => p.name.toLowerCase() === name.toLowerCase());
     if (player) {
       state.keepers.push({ playerId: player.id, round });
+      state.keeperMap.set(`${round}_${state.userTeamIdx}`, { playerId: player.id, name: player.name, pos: player.pos.join("/") });
+      state.drafted.add(player.id);
+      state.teamRosters[state.userTeamIdx].push(player.id);
     }
   });
 
-  // Place keepers
-  state.keepers.forEach(k => {
-    state.drafted.add(k.playerId);
-    state.teamRosters[state.userTeamIdx].push(k.playerId);
-  });
+  // Process AI teams' keepers from KEEPERS_2025
+  for (let t = 0; t < state.numTeams; t++) {
+    if (t === state.userTeamIdx) continue; // user keepers come from form
+    const teamKeepers = KEEPERS_2025[t] || [];
+    teamKeepers.forEach(k => {
+      const player = playerDB.find(p => p.name.toLowerCase() === k.name.toLowerCase());
+      if (player && !state.drafted.has(player.id)) {
+        state.keeperMap.set(`${k.round}_${t}`, { playerId: player.id, name: player.name, pos: player.pos.join("/") });
+        state.drafted.add(player.id);
+        state.teamRosters[t].push(player.id);
+      }
+    });
+  }
 
   // Switch screens
   document.getElementById("setup-screen").style.display = "none";
@@ -1249,15 +1358,42 @@ function startDraft() {
   renderPlayerList();
   updateDraftInfo();
 
-  // Place keeper picks on board
-  state.keepers.forEach(k => {
-    const player = getPlayerById(k.playerId);
-    if (player) updateBoardCell(k.round, state.userTeamIdx, player);
+  // Place all keeper picks on board
+  state.keeperMap.forEach((kp, key) => {
+    const [round, teamIdx] = key.split("_").map(Number);
+    const player = getPlayerById(kp.playerId);
+    if (player) updateBoardCell(round, teamIdx, player, true);
   });
 
-  // Start draft
-  const { teamIdx } = getPickOrder(0);
-  highlightCurrentPick(0, teamIdx);
+  // Start draft — advancePick will skip any keeper picks
+  advancePick();
+}
+
+// ============================================================
+// ADVANCE PICK (skips keeper slots)
+// ============================================================
+function advancePick() {
+  // Skip over any picks that are keepers
+  while (state.currentPick < state.totalPicks) {
+    const { round, teamIdx } = getPickOrder(state.currentPick);
+    const keeperKey = `${round}_${teamIdx}`;
+    if (state.keeperMap.has(keeperKey)) {
+      const kp = state.keeperMap.get(keeperKey);
+      state.picks.push({
+        round, pick: state.currentPick, teamIdx, playerId: kp.playerId,
+        playerName: kp.name, pos: kp.pos, isKeeper: true
+      });
+      state.currentPick++;
+      updateDraftInfo();
+    } else {
+      break;
+    }
+  }
+
+  if (state.currentPick >= state.totalPicks) { endDraft(); return; }
+
+  const { round, teamIdx } = getPickOrder(state.currentPick);
+  highlightCurrentPick(round, teamIdx);
 
   if (teamIdx === state.userTeamIdx) {
     onUserTurn();
@@ -1284,17 +1420,10 @@ function endDraft() {
     const teamPicks = state.picks.filter(p => p.teamIdx === t).sort((a,b) => a.round - b.round);
     teamPicks.forEach(pick => {
       const player = getPlayerById(pick.playerId);
-      html += `<tr><td>${pick.round+1}</td><td>${pick.playerName}</td><td>${pick.pos}</td><td>${player ? (player.adp > 700 ? "N/A" : player.adp) : ""}</td></tr>`;
+      const keeperLabel = pick.isKeeper ? " (K)" : "";
+      const keeperStyle = pick.isKeeper ? ' style="color:var(--gold)"' : "";
+      html += `<tr><td${keeperStyle}>${pick.round+1}${keeperLabel}</td><td>${pick.playerName}</td><td>${pick.pos}</td><td>${player ? (player.adp > 700 ? "N/A" : player.adp) : ""}</td></tr>`;
     });
-    // Add keepers for user team
-    if (isUser && state.keepers.length > 0) {
-      state.keepers.forEach(k => {
-        const player = getPlayerById(k.playerId);
-        if (player && !teamPicks.find(p => p.playerId === k.playerId)) {
-          html += `<tr><td>${k.round+1} (K)</td><td>${player.name}</td><td>${player.pos.join("/")}</td><td>${player.adp > 700 ? "N/A" : player.adp}</td></tr>`;
-        }
-      });
-    }
     html += '</tbody></table></div>';
   }
   document.getElementById("results-content").innerHTML = html;
@@ -1309,7 +1438,8 @@ function exportResults() {
     text += "-".repeat(40) + "\n";
     const teamPicks = state.picks.filter(p => p.teamIdx === t).sort((a,b) => a.round - b.round);
     teamPicks.forEach(pick => {
-      text += `  Rd ${(pick.round+1).toString().padStart(2)}: ${pick.playerName} (${pick.pos})\n`;
+      const kLabel = pick.isKeeper ? " [K]" : "";
+      text += `  Rd ${(pick.round+1).toString().padStart(2)}: ${pick.playerName} (${pick.pos})${kLabel}\n`;
     });
     text += "\n";
   }
@@ -1333,9 +1463,30 @@ function buildDatalist() {
 }
 
 // ============================================================
+// PRE-POPULATE KEEPER FORM FROM 2025 DATA
+// ============================================================
+function initKeeperForm() {
+  const teamIdx = parseInt(document.getElementById("draft-position").value);
+  const list = document.getElementById("keepers-list");
+  list.innerHTML = ""; // clear existing rows
+  const teamKeepers = KEEPERS_2025[teamIdx] || [];
+  teamKeepers.forEach(k => {
+    const div = document.createElement("div");
+    div.className = "keeper-row";
+    div.innerHTML = `
+      <input type="text" placeholder="Player name" class="keeper-name" list="player-datalist" value="${k.name}">
+      <select class="keeper-round">${Array.from({length:23},(_,i)=>`<option value="${i}" ${i === k.round ? "selected" : ""}>${i+1}</option>`).join("")}</select>
+      <button class="remove-keeper" onclick="this.parentElement.remove()">&times;</button>`;
+    list.appendChild(div);
+  });
+}
+
+// ============================================================
 // INIT
 // ============================================================
 buildDatalist();
+document.getElementById("draft-position").addEventListener("change", initKeeperForm);
+initKeeperForm(); // pre-populate on load
 </script>
 </body>
 </html>
