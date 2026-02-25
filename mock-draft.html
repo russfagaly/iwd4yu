@@ -215,15 +215,21 @@ input, select { font-family: inherit; }
   <div class="subtitle">2026 Mock Draft Simulator &mdash; 12-Team Dynasty Keeper League (Standard Order)</div>
 
   <div class="form-group">
-    <label>Your Draft Position</label>
-    <select id="draft-position">
-      <option value="0">1st Pick</option><option value="1">2nd Pick</option>
-      <option value="2">3rd Pick</option><option value="3">4th Pick</option>
-      <option value="4">5th Pick</option><option value="5">6th Pick</option>
-      <option value="6">7th Pick</option><option value="7">8th Pick</option>
-      <option value="8">9th Pick</option><option value="9">10th Pick</option>
-      <option value="10">11th Pick</option><option value="11">12th Pick</option>
-    </select>
+    <label>2026 Draft Order</label>
+    <div style="font-size:0.85em;line-height:1.7;color:var(--text-dim)">
+      <span>1. Never Break The Chaim</span><br>
+      <span>2. The Phavorites</span><br>
+      <span>3. Curtis Granderslams</span><br>
+      <span>4. #BlackCommissioners</span><br>
+      <span>5. Ya Gotta Believe</span><br>
+      <span>6. Late Round Fliers</span><br>
+      <span>7. LowBallers</span><br>
+      <span>8. Cuck Showalters</span><br>
+      <span style="color:var(--gold);font-weight:700">9. I Would Die 4 YU ★</span><br>
+      <span>10. D.C. Funbaggers</span><br>
+      <span>11. Machine Needs Sugar</span><br>
+      <span>12. WaRshington Natinals</span>
+    </div>
   </div>
 
   <div class="form-group">
@@ -659,6 +665,10 @@ const TEAM_NAMES = [
   "D.C. Funbaggers", "Late Round Fliers", "LowBallers", "Machine Needs Sugar",
   "Never Break The Chaim", "The Phavorites", "WaRshington Natinals", "Ya Gotta Believe"
 ];
+
+// Fixed 2026 draft order (position → team index)
+// 1.Chaim 2.Phavorites 3.Granderslams 4.BlackComm 5.YGB 6.LRF 7.Low 8.Cuck 9.YU 10.DCF 11.MNS 12.WSH
+const DRAFT_ORDER = [8, 9, 3, 1, 11, 5, 6, 2, 0, 4, 7, 10];
 
 // ============================================================
 // 2025 KEEPERS (rounds are 0-indexed: Rd 1 = 0, Rd 23 = 22)
@@ -1307,17 +1317,7 @@ function addKeeperRow() {
 // ============================================================
 function startDraft() {
   state.userTeamIdx = 0; // Always "I Would Die 4 YU"
-  const draftPos = parseInt(document.getElementById("draft-position").value);
-  // Build draft order: user (team 0) picks at the selected position, AI teams fill the rest
-  state.draftOrder = [];
-  let aiTeam = 1;
-  for (let i = 0; i < state.numTeams; i++) {
-    if (i === draftPos) {
-      state.draftOrder.push(0);
-    } else {
-      state.draftOrder.push(aiTeam++);
-    }
-  }
+  state.draftOrder = DRAFT_ORDER;
   state.aiSpeed = parseInt(document.getElementById("ai-speed").value);
   state.timerEnabled = document.getElementById("timer-enabled").checked;
   state.autoDraft = document.getElementById("auto-draft-enabled").checked;
