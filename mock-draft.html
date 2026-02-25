@@ -224,7 +224,6 @@ input, select { font-family: inherit; }
       <option value="8">9th Pick</option><option value="9">10th Pick</option>
       <option value="10">11th Pick</option><option value="11">12th Pick</option>
     </select>
-    <div style="margin-top:6px;font-size:0.8em;color:var(--text-dim)">Keepers auto-update when you change draft position</div>
   </div>
 
   <div class="form-group">
@@ -809,7 +808,7 @@ const ROSTER_SLOTS = [
 function getPickOrder(pickNum) {
   const round = Math.floor(pickNum / state.numTeams);
   const posInRound = pickNum % state.numTeams;
-  const teamIdx = posInRound; // Standard (non-snake) draft: same order every round
+  const teamIdx = state.draftOrder ? state.draftOrder[posInRound] : posInRound;
   return { round, posInRound, teamIdx };
 }
 
@@ -1307,7 +1306,18 @@ function addKeeperRow() {
 // DRAFT SETUP & START
 // ============================================================
 function startDraft() {
-  state.userTeamIdx = parseInt(document.getElementById("draft-position").value);
+  state.userTeamIdx = 0; // Always "I Would Die 4 YU"
+  const draftPos = parseInt(document.getElementById("draft-position").value);
+  // Build draft order: user (team 0) picks at the selected position, AI teams fill the rest
+  state.draftOrder = [];
+  let aiTeam = 1;
+  for (let i = 0; i < state.numTeams; i++) {
+    if (i === draftPos) {
+      state.draftOrder.push(0);
+    } else {
+      state.draftOrder.push(aiTeam++);
+    }
+  }
   state.aiSpeed = parseInt(document.getElementById("ai-speed").value);
   state.timerEnabled = document.getElementById("timer-enabled").checked;
   state.autoDraft = document.getElementById("auto-draft-enabled").checked;
@@ -1466,10 +1476,9 @@ function buildDatalist() {
 // PRE-POPULATE KEEPER FORM FROM 2025 DATA
 // ============================================================
 function initKeeperForm() {
-  const teamIdx = parseInt(document.getElementById("draft-position").value);
   const list = document.getElementById("keepers-list");
   list.innerHTML = ""; // clear existing rows
-  const teamKeepers = KEEPERS_2025[teamIdx] || [];
+  const teamKeepers = KEEPERS_2025[0] || []; // Always team 0 (I Would Die 4 YU)
   teamKeepers.forEach(k => {
     const div = document.createElement("div");
     div.className = "keeper-row";
@@ -1485,8 +1494,7 @@ function initKeeperForm() {
 // INIT
 // ============================================================
 buildDatalist();
-document.getElementById("draft-position").addEventListener("change", initKeeperForm);
-initKeeperForm(); // pre-populate on load
+initKeeperForm(); // pre-populate user keepers from 2025 data
 </script>
 </body>
 </html>
